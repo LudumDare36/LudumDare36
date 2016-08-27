@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Gameplay.Unit.Movement
 {
-    [RequireComponent(typeof(BaseUnit))]
+    //[RequireComponent(typeof(BaseUnit))]
     public class PlayerControlledMovement : BaseMovement
     {
         [SerializeField]
@@ -34,14 +34,14 @@ namespace Gameplay.Unit.Movement
             //    return;
             CheckInput();
             Move();
-            //Turn();
+            Turn();
 
         }
 
         private void Turn()
         {
 			if (playerInput != Vector3.zero)
-				rigidBody.MoveRotation(Quaternion.LookRotation(playerInput));
+				GetComponent<Rigidbody> ().rotation = Quaternion.LookRotation(playerInput);
         }
 
         private void Move()

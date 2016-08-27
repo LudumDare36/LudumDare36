@@ -135,7 +135,7 @@ namespace Gameplay.Unit
                 StopCoroutine(pushRoutine);
                 pushRoutine = null;
             }
-            pushRoutine = StartCoroutine(PushBackRoutine(hitInformation));
+            //pushRoutine = StartCoroutine(PushBackRoutine(hitInformation));
         }
 
         private IEnumerator PushBackRoutine(HitInformation hitInformation)

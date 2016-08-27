@@ -804,7 +804,6 @@ GameObject:
   - 33: {fileID: 222461084}
   - 65: {fileID: 222461083}
   - 23: {fileID: 222461082}
-  - 54: {fileID: 222461081}
   - 195: {fileID: 222461080}
   - 114: {fileID: 222461079}
   - 114: {fileID: 222461078}
@@ -884,21 +883,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &222461081
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 222461075}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &222461082
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1369,7 +1353,6 @@ GameObject:
   - 33: {fileID: 360313809}
   - 65: {fileID: 360313808}
   - 23: {fileID: 360313807}
-  - 54: {fileID: 360313806}
   - 195: {fileID: 360313805}
   - 114: {fileID: 360313804}
   - 114: {fileID: 360313803}
@@ -1449,21 +1432,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &360313806
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 360313800}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &360313807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1966,7 +1934,6 @@ GameObject:
   - 33: {fileID: 448295630}
   - 65: {fileID: 448295629}
   - 23: {fileID: 448295628}
-  - 54: {fileID: 448295627}
   - 195: {fileID: 448295626}
   - 114: {fileID: 448295625}
   - 114: {fileID: 448295624}
@@ -2046,21 +2013,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &448295627
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 448295621}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &448295628
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2531,7 +2483,6 @@ GameObject:
   - 33: {fileID: 581745091}
   - 65: {fileID: 581745090}
   - 23: {fileID: 581745089}
-  - 54: {fileID: 581745088}
   - 195: {fileID: 581745087}
   - 114: {fileID: 581745086}
   - 114: {fileID: 581745085}
@@ -2611,21 +2562,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &581745088
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 581745082}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &581745089
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2918,7 +2854,6 @@ GameObject:
   - 33: {fileID: 622474231}
   - 65: {fileID: 622474230}
   - 23: {fileID: 622474229}
-  - 54: {fileID: 622474228}
   - 195: {fileID: 622474227}
   - 114: {fileID: 622474226}
   - 114: {fileID: 622474225}
@@ -2998,21 +2933,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &622474228
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 622474222}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &622474229
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4000,7 +3920,6 @@ GameObject:
   - 33: {fileID: 740332590}
   - 65: {fileID: 740332589}
   - 23: {fileID: 740332588}
-  - 54: {fileID: 740332587}
   - 195: {fileID: 740332586}
   - 114: {fileID: 740332585}
   - 114: {fileID: 740332584}
@@ -4080,21 +3999,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &740332587
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 740332581}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &740332588
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4281,7 +4185,6 @@ GameObject:
   - 33: {fileID: 772614546}
   - 65: {fileID: 772614545}
   - 23: {fileID: 772614544}
-  - 54: {fileID: 772614543}
   - 195: {fileID: 772614542}
   - 114: {fileID: 772614541}
   - 114: {fileID: 772614540}
@@ -4361,21 +4264,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &772614543
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 772614537}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &772614544
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5197,7 +5085,6 @@ GameObject:
   - 33: {fileID: 1044797654}
   - 65: {fileID: 1044797653}
   - 23: {fileID: 1044797652}
-  - 54: {fileID: 1044797651}
   - 195: {fileID: 1044797650}
   - 114: {fileID: 1044797649}
   - 114: {fileID: 1044797648}
@@ -5277,21 +5164,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &1044797651
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1044797645}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &1044797652
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5560,7 +5432,6 @@ GameObject:
   - 33: {fileID: 1114167663}
   - 65: {fileID: 1114167662}
   - 23: {fileID: 1114167661}
-  - 54: {fileID: 1114167660}
   - 195: {fileID: 1114167659}
   - 114: {fileID: 1114167658}
   - 114: {fileID: 1114167657}
@@ -5585,7 +5456,7 @@ Transform:
   - {fileID: 153240249}
   - {fileID: 1055612196}
   m_Father: {fileID: 1236941897}
-  m_RootOrder: 16
+  m_RootOrder: 15
 --- !u!114 &1114167656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5640,21 +5511,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &1114167660
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1114167654}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &1114167661
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6388,9 +6244,9 @@ Transform:
   - {fileID: 222461076}
   - {fileID: 448295622}
   - {fileID: 1044797646}
-  - {fileID: 1792501812}
   - {fileID: 1389944346}
   - {fileID: 1114167655}
+  - {fileID: 1792501812}
   m_Father: {fileID: 0}
   m_RootOrder: 2
 --- !u!1 &1257379154
@@ -6957,7 +6813,6 @@ GameObject:
   - 33: {fileID: 1389944354}
   - 65: {fileID: 1389944353}
   - 23: {fileID: 1389944352}
-  - 54: {fileID: 1389944351}
   - 195: {fileID: 1389944350}
   - 114: {fileID: 1389944349}
   - 114: {fileID: 1389944348}
@@ -6982,7 +6837,7 @@ Transform:
   - {fileID: 1232364046}
   - {fileID: 764555482}
   m_Father: {fileID: 1236941897}
-  m_RootOrder: 15
+  m_RootOrder: 14
 --- !u!114 &1389944347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7037,21 +6892,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &1389944351
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1389944345}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &1389944352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7606,7 +7446,6 @@ GameObject:
   - 33: {fileID: 1447473354}
   - 65: {fileID: 1447473353}
   - 23: {fileID: 1447473352}
-  - 54: {fileID: 1447473351}
   - 195: {fileID: 1447473350}
   - 114: {fileID: 1447473349}
   - 114: {fileID: 1447473348}
@@ -7686,21 +7525,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &1447473351
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1447473345}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &1447473352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7871,7 +7695,6 @@ GameObject:
   - 33: {fileID: 1478264246}
   - 65: {fileID: 1478264245}
   - 23: {fileID: 1478264244}
-  - 54: {fileID: 1478264243}
   - 195: {fileID: 1478264242}
   - 114: {fileID: 1478264241}
   - 114: {fileID: 1478264240}
@@ -7951,21 +7774,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &1478264243
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1478264237}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &1478264244
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9377,11 +9185,11 @@ GameObject:
   - 33: {fileID: 1792501820}
   - 65: {fileID: 1792501819}
   - 23: {fileID: 1792501818}
-  - 54: {fileID: 1792501817}
   - 195: {fileID: 1792501816}
   - 114: {fileID: 1792501815}
   - 114: {fileID: 1792501814}
   - 114: {fileID: 1792501813}
+  - 54: {fileID: 1792501817}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9401,7 +9209,7 @@ Transform:
   m_Children:
   - {fileID: 1459588814}
   m_Father: {fileID: 1236941897}
-  m_RootOrder: 14
+  m_RootOrder: 16
 --- !u!114 &1792501813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11103,7 +10911,6 @@ GameObject:
   - 33: {fileID: 2081724985}
   - 65: {fileID: 2081724984}
   - 23: {fileID: 2081724983}
-  - 54: {fileID: 2081724982}
   - 195: {fileID: 2081724981}
   - 114: {fileID: 2081724980}
   - 114: {fileID: 2081724979}
@@ -11183,21 +10990,6 @@ NavMeshAgent:
   m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!54 &2081724982
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2081724976}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!23 &2081724983
 MeshRenderer:
   m_ObjectHideFlags: 0

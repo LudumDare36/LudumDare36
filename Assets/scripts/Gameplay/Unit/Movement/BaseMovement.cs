@@ -4,11 +4,10 @@ using UnityEngine.Networking;
 
 namespace Gameplay.Unit.Movement
 {
-    [RequireComponent(typeof(Rigidbody), typeof(NavMeshAgent))]
+    [RequireComponent(typeof(NavMeshAgent))]
     public class BaseMovement : MonoBehaviour
     {
         protected NavMeshAgent navMeshAgent;
-        protected Rigidbody rigidBody;
         protected BaseUnit baseUnit;
 
         protected float moveSpeedValue;
@@ -20,7 +19,6 @@ namespace Gameplay.Unit.Movement
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
             baseUnit = GetComponent<BaseUnit>();
-            rigidBody = GetComponent<Rigidbody>();
         }
 
         public virtual void Initialize()
@@ -32,7 +30,7 @@ namespace Gameplay.Unit.Movement
 
         private void OnDisable()
         {
-            moveSpeedAttribute.OnAttributeChange -= OnMoveSpeedAttributeChange;
+            //moveSpeedAttribute.OnAttributeChange -= OnMoveSpeedAttributeChange;
         }
 
         protected virtual void OnMoveSpeedAttributeChange(float prevValue, float currentValue)
