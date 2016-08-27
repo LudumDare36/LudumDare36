@@ -46,7 +46,7 @@ namespace Gameplay.Unit.Movement
 
         private void Move()
         {
-			Vector3 finalSpeed = playerInput * GetComponent<PlayerUnit>().AttributePool.GetAttribute(Gameplay.Attribute.AttributeType.MoveSpeed).CurrentValue * Time.fixedDeltaTime;
+			Vector3 finalSpeed = playerInput.normalized * GetComponent<PlayerUnit>().AttributePool.GetAttribute(Gameplay.Attribute.AttributeType.MoveSpeed).CurrentValue * Time.fixedDeltaTime;
 			navMeshAgent.Move(finalSpeed);
         }
     }
