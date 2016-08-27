@@ -67,11 +67,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013819756036}
-  - 65: {fileID: 65000010981582608}
   - 195: {fileID: 195000010053820164}
   - 114: {fileID: 114000012848313028}
   - 114: {fileID: 114000011831695624}
   - 114: {fileID: 114000011059799234}
+  - 136: {fileID: 136000010292557874}
+  - 114: {fileID: 114000010012835260}
   m_Layer: 0
   m_Name: Giant
   m_TagString: Untagged
@@ -120,7 +121,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013117711320}
   m_LocalRotation: {x: -0, y: -0.999491, z: -0, w: -0.031905815}
-  m_LocalPosition: {x: 0, y: 0, z: -0.35}
+  m_LocalPosition: {x: 0, y: 0, z: 0.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -183.551, z: 0}
   m_Children: []
@@ -146,7 +147,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012034464090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 0}
+  m_LocalPosition: {x: 0, y: -0.25, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -173,7 +174,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012867938602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.000774, y: 0, z: 26.38755}
+  m_LocalPosition: {x: -23.000774, y: 0.41, z: 26.38755}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -232,18 +233,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013045845234}
   m_Mesh: {fileID: 4300000, guid: 08e0adada0841fa4ca78a348bf4f06ce, type: 3}
---- !u!65 &65000010981582608
-BoxCollider:
+--- !u!114 &114000010012835260
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012867938602}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71391f19882c66d4caa7980a62c3843b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HitPoints: 1000
 --- !u!114 &114000011059799234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -315,6 +316,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 10
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136000010292557874
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012867938602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 4
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!195 &195000010053820164
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -322,7 +336,7 @@ NavMeshAgent:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012867938602}
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1.3
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -331,8 +345,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 1
-  m_BaseOffset: 0.4
+  m_Height: 4
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!198 &198000011158711174
@@ -453,7 +467,7 @@ ParticleSystem:
       maxGradient:
         key0:
           serializedVersion: 2
-          rgba: 3531379356
+          rgba: 3528618368
         key1:
           serializedVersion: 2
           rgba: 4740698
