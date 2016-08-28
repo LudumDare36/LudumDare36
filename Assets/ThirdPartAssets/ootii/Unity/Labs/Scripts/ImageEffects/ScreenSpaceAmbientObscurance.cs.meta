@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 5b39a64c8df6e6749825e675e66f268b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rand: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
+  - aoShader: {fileID: 4800000, guid: 95616c020c5604dda96cf76afbbc0272, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

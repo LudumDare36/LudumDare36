@@ -11,7 +11,7 @@ public class AttackController : MonoBehaviour {
 	void Start () {
 		avatarIsAttacking = false;
 		StartCoroutine(CaptureAttackInput());
-        StartCoroutine(SwitchAttackColliders());
+		StartCoroutine(SwitchAttackColliders());
 	}
 
 
@@ -26,7 +26,7 @@ public class AttackController : MonoBehaviour {
 			for (int i = 0; i < weapons.Length; i++)
 			{
 				weapons[i].GetComponentInChildren<BoxCollider>().enabled = true;
-                weapons[i].GetComponent<XWeaponTrail>().enabled = true;
+				weapons[i].GetComponent<XWeaponTrail>().enabled = true;
 			}
 		}
 	}
@@ -44,11 +44,11 @@ public class AttackController : MonoBehaviour {
 
 			avatarIsAttacking = true;
 			GetComponent<Animator>().
-				SetTrigger("Attack" + Random.Range(1, 13));
+				SetTrigger("Attack" + Random.Range(1, 2));
 
-            attackSFXPlayer.PlayAttackSFX();
+			attackSFXPlayer.PlayAttackSFX();
 
-            yield return new WaitForSeconds(0.666f);
+			yield return new WaitForSeconds(0.666f);
 			avatarIsAttacking = false;
 		}
 	}

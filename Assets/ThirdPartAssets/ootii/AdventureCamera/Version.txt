@@ -1,0 +1,3 @@
+﻿Adventure Camera Rig
+Version 2.13
+Aug 28, 2016

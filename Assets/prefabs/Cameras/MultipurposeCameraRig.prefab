@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &101084
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -49,8 +49,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 430870}
   - 54: {fileID: 5483424}
-  - 114: {fileID: 11477556}
-  - 114: {fileID: 11421366}
+  - 114: {fileID: 11451802}
   m_Layer: 0
   m_Name: MultipurposeCameraRig
   m_TagString: Untagged
@@ -74,35 +73,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &140792
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 444446}
-  m_Layer: 0
-  m_Name: Pivot
-  m_TagString: Untagged
-  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &422448
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101084}
-  m_LocalRotation: {x: 0.052335963, y: 0, z: 0, w: 0.9986295}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 6, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 447994}
   - {fileID: 465418}
-  m_Father: {fileID: 444446}
+  m_Father: {fileID: 430870}
   m_RootOrder: 0
 --- !u!4 &430870
 Transform:
@@ -115,22 +99,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 444446}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &444446
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 140792}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
   - {fileID: 422448}
-  m_Father: {fileID: 430870}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &447994
 Transform:
@@ -174,7 +144,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.2
+  near clip plane: 0.1
   far clip plane: 5000
   field of view: 60
   orthographic: 0
@@ -389,28 +359,6 @@ MonoBehaviour:
   m_MinZ: 0.01
   m_SSAOShader: {fileID: 4800000, guid: 43ca18288c424f645aaa1e9e07f04c50, type: 3}
   m_RandomTexture: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
---- !u!114 &11421366
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 115314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8d3968294210ba4a9d2bb96dfa74a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
-  m_AutoTargetPlayer: 1
-  m_UpdateType: 0
-  m_MoveSpeed: 3
-  m_TurnSpeed: 1
-  m_RollSpeed: 0.2
-  m_FollowVelocity: 1
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 90
-  m_TargetVelocityLowerLimit: 4
-  m_SmoothTurnTime: 0.2
 --- !u!114 &11428684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -472,7 +420,7 @@ MonoBehaviour:
   jitter: 0.05
   showVelocity: 0
   showVelocityScale: 1
---- !u!114 &11477556
+--- !u!114 &11451802
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -480,15 +428,77 @@ MonoBehaviour:
   m_GameObject: {fileID: 115314}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
+  m_Script: {fileID: 11500000, guid: 708bafff2e6962c4a95a23d5edc93219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
+  _Mode: 0
+  _Anchor: {fileID: 0}
+  _FrameForceToFollowAnchor: 0
+  _IsInternalUpdateEnabled: 1
+  _IsFixedUpdateEnabled: 0
+  _FixedUpdateFPS: 60
+  _InputSourceOwner: {fileID: 0}
+  _AutoFindInputSource: 1
+  _InvertPitch: 1
+  _AnchorOffset: {x: 0, y: 2, z: 0}
+  _AnchorDistance: 3
+  _AnchorTime: 0.4
+  _AnchorOrbitsCamera: 1
+  _IsAltModeEnabled: 1
+  _AltActionAlias: Fire3
+  _AltActionAliasAsToggle: 1
+  _AltAnchorOffset: {x: 0.7, y: 1.7, z: 0}
+  _AltAnchorDistance: 1
+  _AltAnchorTime: 0.15
+  _AltForceActorToView: 1
+  _YawSpeed: 120
+  _PitchSpeed: 90
+  _AltPitchSpeed: 45
+  _MinPitch: -60
+  _MaxPitch: 70
+  _OrbitSmoothing: 0.1
+  _IsCollisionsEnabled: 0
+  _IsAltCollisionsEnabled: 0
+  _CollisionLayers: 1
+  _AutoCollisionRadius: 1
+  _AutoCollisionRadiusFactor: 1.5
+  _CollisionRadius: 0.25
+  _IsObstructionsEnabled: 1
+  _IsAltObstructionsEnabled: 0
+  _AutoObstructionRadius: 1
+  _ObstructionRadius: 0.25
+  _RecoveryDelay: 0.25
+  _MinDistance: 0
+  _MaxDistance: 5
+  _IsFadeEnabled: 1
+  _FadeDistance: 0.4
+  _FadeSpeed: 0.25
+  _DisableRenderers: 1
+  mIsFieldOfViewEnabled: 0
+  mIsAltFieldOfViewEnabled: 1
+  _FieldOfViewActionAlias: Mouse ScrollWheel
+  _FieldOfView: 0
+  _MinFieldOfView: 20
+  _FieldOfViewSpeed: -20
+  _FieldOfViewSmoothing: 0.1
+  _ShakeStrength:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  mDistanceEnd: 3
+  EditorTabIndex: 1
 --- !u!114 &11479498
 MonoBehaviour:
   m_ObjectHideFlags: 1

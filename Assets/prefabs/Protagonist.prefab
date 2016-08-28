@@ -472,11 +472,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 448162}
   - 95: {fileID: 9537264}
-  - 54: {fileID: 5424054}
-  - 136: {fileID: 13689830}
-  - 114: {fileID: 11488878}
-  - 114: {fileID: 11433078}
-  - 114: {fileID: 11490252}
+  - 114: {fileID: 11485456}
+  - 54: {fileID: 5488004}
+  - 136: {fileID: 13624146}
+  - 114: {fileID: 11463590}
   m_Layer: 0
   m_Name: Protagonist
   m_TagString: Player
@@ -1783,7 +1782,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111682}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &5424054
+--- !u!54 &5488004
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1796,7 +1795,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 2
 --- !u!65 &6508028
 BoxCollider:
@@ -1831,7 +1830,7 @@ Animator:
   m_GameObject: {fileID: 152592}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: cf3910b7639e12447827e45f63f60201, type: 3}
-  m_Controller: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: c1b9c0c639ef7184b93b1ea373ccbfe1, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1848,17 +1847,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ae62c960480d7d488180e7e72695ffc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11433078
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 152592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11441456
@@ -1893,6 +1881,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ae62c960480d7d488180e7e72695ffc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11463590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9b851be1701734e8a3d6525d54a787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11473008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1914,26 +1913,7 @@ MonoBehaviour:
   Fps: 90
   MyColor: {r: 1, g: 0, b: 0, a: 1}
   MyMaterial: {fileID: 2100000, guid: 9db63a4774ae8954ab6f503f10fb20e4, type: 2}
---- !u!114 &11488878
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 152592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
-  m_JumpPower: 18
-  m_GravityMultiplier: 2
-  m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1.5
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.333
---- !u!114 &11490252
+--- !u!114 &11485456
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1949,7 +1929,7 @@ MonoBehaviour:
   weapons:
   - {fileID: 11405956}
   - {fileID: 11461760}
---- !u!136 &13689830
+--- !u!136 &13624146
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
