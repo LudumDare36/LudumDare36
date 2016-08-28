@@ -52,3 +52,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brick: {fileID: 1000012107734328, guid: 27500d0ef8b1006438dd8d8c79892fa3, type: 2}
+  archBrick: {fileID: 1000013190265008, guid: 5b9b1ac49035ba048b0de99576b39945, type: 2}

@@ -19,8 +19,10 @@ public class Sediment : MonoBehaviour {
     ChangeState(state, true);
 	}
 
-  void ChangeState(State s, bool startup = false)
+  public void ChangeState(State s, bool startup = false)
   {
+    if (state == State.SEDIMENT)
+      return;
     if (!startup)
       Debug.Log("target " + gameObject.name + " " + state + " => " + s);
     switch ((state = s))
@@ -41,7 +43,7 @@ public class Sediment : MonoBehaviour {
 
   void OnCollisionEnter(Collision collision)
   {
-    if (cooldown < Time.time && state == State.PLACED)
+    if (cooldown < Time.time && state == State.PLACED && collision.gameObject.name.StartsWith("Terrain"))
     {
       Debug.Log("collision " + gameObject.name + " with " + collision.other.name);
       ChangeState(State.DROP);
