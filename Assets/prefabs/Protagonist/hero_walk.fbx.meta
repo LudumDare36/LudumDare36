@@ -786,6 +786,9 @@ ModelImporter:
     101556: model:Wrist
     101558: model:Wrist_L
     101560: model:Wrist_R
+    101562: group1
+    101564: olhos:pSphere3
+    101566: olhos:pSphere4
     400000: _UNKNOWN_REF_NODE_fosterParent1
     400002: //RootNode
     400004: model1:_UNKNOWN_REF_NODE_fosterParent1
@@ -1567,10 +1570,19 @@ ModelImporter:
     401556: model:Wrist
     401558: model:Wrist_L
     401560: model:Wrist_R
+    401562: group1
+    401564: olhos:pSphere3
+    401566: olhos:pSphere4
     2300000: model1:pCylinder1
+    2300002: olhos:pSphere3
+    2300004: olhos:pSphere4
     3300000: model1:pCylinder1
+    3300002: olhos:pSphere3
+    3300004: olhos:pSphere4
     4300000: model:polySurface3
     4300002: model1:pCylinder1
+    4300004: olhos:pSphere3
+    4300006: olhos:pSphere4
     7400000: Take 001
     9500000: //RootNode
     13700000: model:polySurface3
@@ -1581,7 +1593,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
