@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 43b5609128b49b44290a142200a6a84e
-timeCreated: 1472422813
+guid: cc69719c2b2a0d4418f12a3e2a6d99ae
+timeCreated: 1472411604
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -1674,7 +1674,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
