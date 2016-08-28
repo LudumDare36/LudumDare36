@@ -239,16 +239,16 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _SpecularColor
-        second: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
-      data:
-        first:
           name: _DeepWaterColor
         second: {r: 0.15073529, g: 0.21772875, b: 0.30147058, a: 1}
       data:
         first:
           name: _ShallowWaterColor
         second: {r: 0.23875432, g: 0.41302946, b: 0.4705882, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
       data:
         first:
           name: _FoamColor

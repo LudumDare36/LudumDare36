@@ -352,12 +352,12 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _SpecularColor
-        second: {r: 0.7205882, g: 0.7311851, b: 0.7311851, a: 1}
-      data:
-        first:
           name: _DeepWaterColor
         second: {r: 0.01135381, g: 0.11889393, b: 0.1544118, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 0.7205882, g: 0.7311851, b: 0.7311851, a: 1}
       data:
         first:
           name: _MainColor
