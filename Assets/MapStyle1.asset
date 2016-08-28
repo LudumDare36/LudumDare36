@@ -5405,7 +5405,7 @@ MonoBehaviour:
         name: enabled
         property: 0
       ints:
-      - val: 2
+      - val: 0
         name: selected
         property: 0
       - val: 20
@@ -5553,7 +5553,7 @@ MonoBehaviour:
       - val:
           serializedVersion: 2
           x: 1060.5826
-          y: 414.15198
+          y: 242.15196
           width: 18
           height: 18
         name: guiRect
@@ -5634,10 +5634,10 @@ MonoBehaviour:
       bools: []
       ints: []
       floats:
-      - val: 1
+      - val: 6
         name: x
         property: 0
-      - val: 1
+      - val: 6
         name: y
         property: 0
       strings: []
@@ -5748,7 +5748,7 @@ MonoBehaviour:
       - val:
           serializedVersion: 2
           x: 908.58264
-          y: 386.15198
+          y: 214.15196
           width: 18
           height: 18
         name: guiRect
@@ -5790,7 +5790,7 @@ MonoBehaviour:
       - val:
           serializedVersion: 2
           x: 1060.5826
-          y: 386.15198
+          y: 214.15196
           width: 18
           height: 18
         name: guiRect
@@ -6179,7 +6179,7 @@ MonoBehaviour:
       - val: 20
         name: collapsedHeight
         property: 0
-      - val: 0
+      - val: 74
         name: extendedHeight
         property: 0
       floats: []
@@ -6189,10 +6189,10 @@ MonoBehaviour:
       rects:
       - val:
           serializedVersion: 2
-          x: 411.33127
-          y: 387.0031
+          x: 510.33127
+          y: 388.0031
           width: 160
-          height: 181
+          height: 263
         name: guiRect
         property: 0
       unityObjs: []
@@ -6212,6 +6212,9 @@ MonoBehaviour:
         name: 
         property: 0
       - link: 362
+        name: 
+        property: 0
+      - link: 391
         name: 
         property: 0
       bools: []
@@ -6290,8 +6293,8 @@ MonoBehaviour:
       rects:
       - val:
           serializedVersion: 2
-          x: 406.33127
-          y: 542.0031
+          x: 505.33127
+          y: 625.0031
           width: 18
           height: 18
         name: guiRect
@@ -6712,7 +6715,7 @@ MonoBehaviour:
         name: seed
         property: 0
       floats:
-      - val: 27
+      - val: 36
         name: count
         property: 0
       - val: 0.1
@@ -7388,8 +7391,8 @@ MonoBehaviour:
       rects:
       - val:
           serializedVersion: 2
-          x: 406.33127
-          y: 514.0031
+          x: 505.33127
+          y: 597.0031
           width: 18
           height: 18
         name: guiRect
@@ -8124,8 +8127,8 @@ MonoBehaviour:
       rects:
       - val:
           serializedVersion: 2
-          x: 406.33127
-          y: 486.0031
+          x: 505.33127
+          y: 569.0031
           width: 18
           height: 18
         name: guiRect
@@ -8860,8 +8863,8 @@ MonoBehaviour:
       rects:
       - val:
           serializedVersion: 2
-          x: 406.33127
-          y: 458.0031
+          x: 505.33127
+          y: 541.0031
           width: 18
           height: 18
         name: guiRect
@@ -9596,8 +9599,8 @@ MonoBehaviour:
       rects:
       - val:
           serializedVersion: 2
-          x: 406.33127
-          y: 430.0031
+          x: 505.33127
+          y: 513.0031
           width: 18
           height: 18
         name: guiRect
@@ -10256,6 +10259,95 @@ MonoBehaviour:
       bools: []
       ints:
       - val: 0
+        name: value__
+        property: 0
+      floats: []
+      strings: []
+      chars: []
+      floatArrays: []
+      rects: []
+      unityObjs: []
+    - typeName: MapMagic.ObjectOutput+Layer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      links:
+      - link: 392
+        name: input
+        property: 0
+      bools:
+      - val: 0
+        name: rotate
+        property: 0
+      - val: 0
+        name: scale
+        property: 0
+      - val: 0
+        name: scaleY
+        property: 0
+      - val: 1
+        name: usePool
+        property: 0
+      - val: 0
+        name: parentToRoot
+        property: 0
+      - val: 0
+        name: pinned
+        property: 0
+      ints: []
+      floats: []
+      strings: []
+      chars: []
+      floatArrays: []
+      rects: []
+      unityObjs:
+      - val: {fileID: 400000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+        name: prefab
+        property: 0
+    - typeName: MapMagic.Generator+Input, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      links:
+      - link: 393
+        name: type
+        property: 0
+      - link: 233
+        name: link
+        property: 0
+      - link: 236
+        name: linkGen
+        property: 0
+      bools:
+      - val: 0
+        name: write
+        property: 0
+      - val: 0
+        name: mandatory
+        property: 0
+      ints: []
+      floats: []
+      strings:
+      - val: LayerInput
+        name: guiName
+        property: 0
+      - val: 
+        name: guiObjId
+        property: 0
+      chars: []
+      floatArrays: []
+      rects:
+      - val:
+          serializedVersion: 2
+          x: 505.33127
+          y: 431.0031
+          width: 18
+          height: 18
+        name: guiRect
+        property: 0
+      unityObjs: []
+    - typeName: MapMagic.Generator+InoutType, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      links: []
+      bools: []
+      ints:
+      - val: 1
         name: value__
         property: 0
       floats: []
