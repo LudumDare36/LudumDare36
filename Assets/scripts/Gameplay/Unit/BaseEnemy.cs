@@ -20,7 +20,8 @@ namespace Gameplay.Unit
         private PathAgentController pathAgentController;
 		private float minimumPosotionRange = -35.0f;
 		private float maximumPosotionRange = 35.0f;
-        private BehaviorState state = BehaviorState.Idle;
+      public BehaviorState startState = BehaviorState.Idle;
+      private BehaviorState state = BehaviorState.Idle;
         private Coroutine pushRoutine;
 
         protected override void Awake()
@@ -53,7 +54,7 @@ namespace Gameplay.Unit
 		{
 			ChangeStateTo(BehaviorState.Idle);
 			sightTriggerVolume.ClearContainingList ();
-			ChangeStateTo(BehaviorState.Patrolling);
+			ChangeStateTo(startState);
 		}
 
         protected override void OnDestroy()
@@ -67,13 +68,16 @@ namespace Gameplay.Unit
 			sightTriggerVolume.OnTriggerStayEvent -= OnSightTriggerVolumeStay;
         }
 
-        private void OnSightTriggerVolumeExit(TriggerVolume volume, Collider collider)
-        {
-            currentTarget = null;
-            ChangeStateTo(BehaviorState.Patrolling);
-        }
+    private void OnSightTriggerVolumeExit(TriggerVolume volume, Collider collider)
+    {
+      if (collider.tag == "Player")
+      {
+          currentTarget = null;
+        ChangeStateTo(BehaviorState.Patrolling);
+      }
+    }
 
-        private void OnSightTriggerVolumeEnter(TriggerVolume volume, Collider collider)
+    private void OnSightTriggerVolumeEnter(TriggerVolume volume, Collider collider)
         {
 			if (collider.tag == "Player")
 			{
@@ -176,7 +180,7 @@ namespace Gameplay.Unit
 				}
             }
 				
-			if (state == BehaviorState.Patrolling && GetComponent<NavMeshAgent> ().velocity == Vector3.zero)
+			if (state == BehaviorState.Patrolling && GetComponent<NavMeshAgent> ().velocity.magnitude < 0.6)
 			{
 				ChangeStateTo(BehaviorState.Patrolling);
 				SeekNewPosition ();
