@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: River
+  m_Shader: {fileID: 4800000, guid: 4ad3a40692e960b4bbd3671032b4845e, type: 3}
+  m_ShaderKeywords: _ENABLEREFLECTIONS_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FoamTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 199d83fd2aca7214481411272c61f368, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SmallWavesTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 16aae366ec986ff4f8a63a5331ee7acb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LargeWavesTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 38a68f55943b5274d9269966a0a631ff, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MediumWavesTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 23bcf594ec017424e892a95b68f6b439, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FlowMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _NormalTiling
+        second: 1
+      data:
+        first:
+          name: _DepthTransparency
+        second: 4.26
+      data:
+        first:
+          name: _ShoreFade
+        second: 0.3
+      data:
+        first:
+          name: _ShoreTransparency
+        second: 0.5
+      data:
+        first:
+          name: _Fade
+        second: 2.24
+      data:
+        first:
+          name: _Distortion
+        second: 0.07
+      data:
+        first:
+          name: _Specular
+        second: 1
+      data:
+        first:
+          name: _Gloss
+        second: 0.849
+      data:
+        first:
+          name: _LightWrapping
+        second: 2
+      data:
+        first:
+          name: _Refraction
+        second: 0.67
+      data:
+        first:
+          name: _WaveSpeed
+        second: 40
+      data:
+        first:
+          name: _Density
+        second: 4.23
+      data:
+        first:
+          name: _EnableReflections
+        second: 1
+      data:
+        first:
+          name: _ReflectionIntensity
+        second: 0.301
+      data:
+        first:
+          name: _FoamTiling
+        second: 16000
+      data:
+        first:
+          name: _FoamBlend
+        second: 0.3
+      data:
+        first:
+          name: _FoamVisibility
+        second: 0.547
+      data:
+        first:
+          name: _FoamIntensity
+        second: 10
+      data:
+        first:
+          name: _FoamContrast
+        second: 0.27
+      data:
+        first:
+          name: _FoamSpeed
+        second: -200
+      data:
+        first:
+          name: _EnableCustomFog
+        second: 0
+      data:
+        first:
+          name: _FogDistance
+        second: 1000
+      data:
+        first:
+          name: _FogFade
+        second: 1.5
+      data:
+        first:
+          name: _SmallWavesTiling
+        second: 1500
+      data:
+        first:
+          name: _LargeWavesTiling
+        second: 500
+      data:
+        first:
+          name: _SmallWavesSpeed
+        second: -60
+      data:
+        first:
+          name: _LargeWavesSpeed
+        second: 50
+      data:
+        first:
+          name: _FoamDistFade
+        second: 2.87
+      data:
+        first:
+          name: _FoamDistFalloff
+        second: 20.1
+      data:
+        first:
+          name: _UnderwaterMode
+        second: 0
+      data:
+        first:
+          name: _LongTilingDistance
+        second: 600
+      data:
+        first:
+          name: _DistanceTilingFade
+        second: 1.2
+      data:
+        first:
+          name: _SmallWaveRrefraction
+        second: 1.38
+      data:
+        first:
+          name: _MediumWavesTiling
+        second: 3000
+      data:
+        first:
+          name: _MediumWavesSpeed
+        second: 120
+      data:
+        first:
+          name: _MediumWaveRefraction
+        second: 1.86
+      data:
+        first:
+          name: _LargeWaveRefraction
+        second: 2.16
+      data:
+        first:
+          name: _WaveBlend
+        second: 0.77
+      data:
+        first:
+          name: _WaveFade
+        second: 1.19
+      data:
+        first:
+          name: _FlowSpeed
+        second: 0
+      data:
+        first:
+          name: _UsingLinearColorSpace
+        second: 0
+      data:
+        first:
+          name: _MediumTilingDistance
+        second: 300
+      data:
+        first:
+          name: _UnderwaterTranspDist
+        second: 16.4
+      data:
+        first:
+          name: _UnderwaterTranspFalloff
+        second: 0.78
+      data:
+        first:
+          name: _FullTransparency
+        second: 0
+      data:
+        first:
+          name: _node_8159
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DeepWaterColor
+        second: {r: 0, g: 0.095892414, b: 0.22794116, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 0.7205882, g: 0.7311851, b: 0.7311851, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 0, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _FoamColor
+        second: {r: 0.3823529, g: 0.3879758, b: 0.3879758, a: 1}
+      data:
+        first:
+          name: _FogColor
+        second: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 1}
