@@ -43,11 +43,12 @@ public class AttackController : MonoBehaviour {
 						));
 
 			avatarIsAttacking = true;
-			attackSFXPlayer.PlayAttackSFX();
 			GetComponent<Animator>().
 				SetTrigger("Attack" + Random.Range(1, 13));
 
-			yield return new WaitForSeconds(0.666f);
+            attackSFXPlayer.PlayAttackSFX();
+
+            yield return new WaitForSeconds(0.666f);
 			avatarIsAttacking = false;
 		}
 	}

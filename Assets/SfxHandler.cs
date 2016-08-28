@@ -121,6 +121,7 @@ public class SfxHandler : MonoBehaviour
     private IEnumerator PlaySoundFX()
     {
         yield return new WaitForFixedUpdate();
+        yield return new WaitForSeconds(0.111f);
 
         yield return new WaitForSeconds(0.222f);
         airWooshVariants[Random.Range(0, airWooshVariants.Length)].Play();
