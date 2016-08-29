@@ -91,6 +91,7 @@ public class ThunderStorm : MonoBehaviour
             _newLightningSource.intensity = 0f;
             _newLightningSource.shadows = LightShadows.Soft;
             _newLightningSource.type = LightType.Directional;
+            _newLightningSource.color = lightningCollor;
         }
 
         currentLightningPool
@@ -183,7 +184,7 @@ public class ThunderStorm : MonoBehaviour
             Rotate(Random.Range(0f, 180f), Random.Range(-180, 180f), 0f);
 
         currentLightningPool[_index].intensity 
-            = Random.Range(4f, 8f);
+            = Random.Range(2f, 6f);
 
         StartCoroutine(ThunderClapSFX());
         StartCoroutine(ThunderGrowlSFX());
