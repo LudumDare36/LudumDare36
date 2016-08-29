@@ -513,6 +513,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &161896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 440546}
+  - 114: {fileID: 11414072}
+  m_Layer: 0
+  m_Name: Gyro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &164912
 GameObject:
   m_ObjectHideFlags: 1
@@ -1238,6 +1254,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 460796}
   m_RootOrder: 8
+--- !u!4 &440546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 448162}
+  m_RootOrder: 2
 --- !u!4 &440850
 Transform:
   m_ObjectHideFlags: 1
@@ -1306,6 +1335,7 @@ Transform:
   m_Children:
   - {fileID: 454956}
   - {fileID: 470050}
+  - {fileID: 440546}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &449378
@@ -1847,6 +1877,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ae62c960480d7d488180e7e72695ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11414072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da79f5dc56d83db4ab02c841e68668ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11441456
