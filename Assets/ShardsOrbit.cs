@@ -134,8 +134,10 @@ public class ShardsOrbit : MonoBehaviour
 			StartCoroutine(TranslateOrbit(_newOrbit.transform));
 		}
 		_newRingOfShatters.transform.SetParent(transform);
-
-	}
+        _newRingOfShatters.transform.position
+            = _newRingOfShatters.transform.position
+                + Vector3.up * 25f;
+    }
 
 	IEnumerator TranslateOrbit(Transform _orbit)
 	{
@@ -152,11 +154,17 @@ public class ShardsOrbit : MonoBehaviour
 						Random.Range(0.666f, 0.999f),
 							Random.Range(0.666f, 0.999f));
 
-		while (true)
-		{
-			yield return new WaitForFixedUpdate();
+        while (true)
+        {
+            
 
-			_orbit.
+            yield return new WaitForFixedUpdate();
+
+            yield return new WaitWhile(()
+            => Vector3.Distance(transform.position,
+                GameObject.FindGameObjectWithTag("Player").transform.position) > 120f);
+
+            _orbit.
 				Rotate(_currentOrbitRotationDisplacement*Time.smoothDeltaTime);
 
 			_orbit.localScale

@@ -2077,6 +2077,8 @@ MonoBehaviour:
   AnimationSpeed: 1
   TurnSpeed: 2
   FallHeight: 3
+  RunIsToggle: 1
+  RunAfterFall: 0
   Mode: 0
 --- !u!114 &11471642
 MonoBehaviour:

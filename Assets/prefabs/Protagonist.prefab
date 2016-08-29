@@ -488,9 +488,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 448162}
   - 95: {fileID: 9537264}
-  - 114: {fileID: 11485456}
   - 54: {fileID: 5488004}
   - 136: {fileID: 13624146}
+  - 114: {fileID: 11485456}
   - 114: {fileID: 11463590}
   m_Layer: 0
   m_Name: Protagonist
@@ -1115,7 +1115,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 189338}
-  m_LocalRotation: {x: -0.6926564, y: 0.13112834, z: -0.69120544, w: 0.15895812}
+  m_LocalRotation: {x: -0.69265634, y: 0.13112833, z: -0.6912054, w: 0.1589581}
   m_LocalPosition: {x: -1.57, y: 1.552, z: -0.106}
   m_LocalScale: {x: 0.012, y: 1, z: 0.333}
   m_LocalEulerAnglesHint: {x: -2.2312999, y: 89.6522, z: -156.31529}
@@ -2059,8 +2059,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -0.0048828125, y: -0.000030517578, z: 0.00036621094}
-    m_Extent: {x: 8.640415, y: 1.8335042, z: 5.002633}
+    m_Center: {x: -0.001953125, y: 0.000030517578, z: 0.00036621094}
+    m_Extent: {x: 8.63978, y: 1.8335042, z: 5.0026326}
   m_DirtyAABB: 0
 --- !u!137 &13726836
 SkinnedMeshRenderer:
@@ -2096,7 +2096,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -0.001953125, y: -0.000030517578, z: 0.00024414062}
+    m_Center: {x: -0.00390625, y: -0.000015258789, z: 0.00024414062}
     m_Extent: {x: 125.20994, y: 0.29528093, z: 5.1560893}
   m_DirtyAABB: 0
 --- !u!137 &13737040
@@ -2133,7 +2133,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -0.001953125, y: -0.000030517578, z: 0.00024414062}
+    m_Center: {x: -0.00390625, y: -0.000015258789, z: 0.00024414062}
     m_Extent: {x: 165.28119, y: 0.38709372, z: 5.117114}
   m_DirtyAABB: 0
 --- !u!137 &13742242
@@ -2170,8 +2170,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0, y: 0.000076293945, z: 0}
-    m_Extent: {x: 116.82553, y: 0.7152293, z: 5.145195}
+    m_Center: {x: 0.0078125, y: 0, z: 0.00048828125}
+    m_Extent: {x: 116.82582, y: 0.7152364, z: 5.145197}
   m_DirtyAABB: 0
 --- !u!137 &13745498
 SkinnedMeshRenderer:
@@ -2207,8 +2207,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.0029296875, y: -0.000061035156, z: 0.00024414062}
-    m_Extent: {x: 46.53341, y: 1.9702213, z: 5.0303125}
+    m_Center: {x: 0.001953125, y: -0.000076293945, z: 0.00036621094}
+    m_Extent: {x: 46.53279, y: 1.9702194, z: 5.0303125}
   m_DirtyAABB: 0
 --- !u!137 &13755050
 SkinnedMeshRenderer:
@@ -2320,7 +2320,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.0009765625, y: -0.00048828125, z: -0.00012207031}
+    m_Center: {x: 0.0009765625, y: 0, z: 0.00024414062}
     m_Extent: {x: 2.1926947, y: 2.3540316, z: 2.6321526}
   m_DirtyAABB: 0
 --- !u!137 &13767640
@@ -2357,7 +2357,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.00390625, y: 0.000045776367, z: 0.00036621094}
+    m_Center: {x: 0.005859375, y: 0, z: 0.00036621094}
     m_Extent: {x: 154.10265, y: 0.93896276, z: 5.1089497}
   m_DirtyAABB: 0
 --- !u!137 &13769860
@@ -2394,8 +2394,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -0.00390625, y: 0.000030517578, z: 0.00048828125}
-    m_Extent: {x: 7.7302437, y: 1.375434, z: 5.003596}
+    m_Center: {x: -0.001953125, y: 0.000061035156, z: 0.0007324219}
+    m_Extent: {x: 7.73088, y: 1.3754342, z: 5.0035963}
   m_DirtyAABB: 0
 --- !u!137 &13770976
 SkinnedMeshRenderer:
@@ -2431,7 +2431,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.00390625, y: -0.000061035156, z: 0.00048828125}
+    m_Center: {x: 0.001953125, y: -0.00010681152, z: 0.00024414062}
     m_Extent: {x: 36.150166, y: 1.4848931, z: 5.040464}
   m_DirtyAABB: 0
 --- !u!183 &18313174
