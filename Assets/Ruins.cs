@@ -34,7 +34,7 @@ public class Ruins : MonoBehaviour {
           int pileHeight = Random.Range(maxHeight * 3 / 4, maxHeight);
           for (int y = 0; y < pileHeight; y++)
           {
-            GameObject go = (GameObject)Instantiate(brick, pos, Quaternion.identity, transform);
+            GameObject go = (GameObject)Instantiate(brick, pos, Quaternion.identity);
             if (y == 0)
             {
               go.GetComponent<Sediment>().ChangeState(Sediment.State.SEDIMENT);
@@ -98,7 +98,7 @@ public class Ruins : MonoBehaviour {
               float x1 = 0.5f + x0 * 0.5f;
               Vector3 pos = Vector3.Lerp(pos1, pos2, x1) + up * y0 * aSize * 2.0f;
               Quaternion rot = Quaternion.LookRotation(pos - center, Vector3.up * x0);
-              Instantiate(archBrick, pos, rot, transform);
+              Instantiate(archBrick, pos, rot);
             }
             return;
           }
