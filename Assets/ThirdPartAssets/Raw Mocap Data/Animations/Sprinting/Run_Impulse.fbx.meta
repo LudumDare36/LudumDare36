@@ -173,9 +173,24 @@ ModelImporter:
     animationImportWarnings: "\nDefault bone length found in this file is different
       form the one found in the source avatar:\n\t'LeftLeg' : position error = 7.696520
       mm\n\t'LeftFoot' : position error = 15.233778 mm\n"
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Run_Impulse':\n\tLeftLowerLeg
+      average position error 7.8 mm and maximum position error 8.2 mm at time 6:14
+      (95.6%) Frame 194\n\tLeftFoot average position error 19.6 mm and maximum position
+      error 22.8 mm at time 6:14 (95.6%) Frame 194\n\tRightLowerLeg average position
+      error 7.7 mm and maximum position error 7.8 mm at time 5: 0 (0.0%) Frame 150\n\tRightFoot
+      average position error 18.4 mm and maximum position error 22.8 mm at time 6:16
+      (102.2%) Frame 196\n\tLeftUpperArm average position error 25.5 mm and maximum
+      position error 27.7 mm at time 5:22 (46.7%) Frame 172\n\tLeftLowerArm average
+      position error 25.3 mm and maximum position error 26.8 mm at time 5:22 (46.7%)
+      Frame 172\n\tLeftHand average position error 25.2 mm and maximum position error
+      25.8 mm at time 5:22 (46.7%) Frame 172\n\tRightUpperArm average position error
+      25.7 mm and maximum position error 26.8 mm at time 5:13 (26.7%) Frame 163\n\tRightLowerArm
+      average position error 25.4 mm and maximum position error 25.8 mm at time 5:13
+      (26.7%) Frame 163\n\tRightHand average position error 25.2 mm and maximum position
+      error 25.6 mm at time 5:26 (55.6%) Frame 176\n\tHead average position error
+      21.0 mm and maximum position error 24.8 mm at time 5:17 (37.8%) Frame 167\n"
+    animationDoRetargetingWarnings: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5

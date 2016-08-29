@@ -37,14 +37,12 @@ public class AttackController : MonoBehaviour {
 		{
 			yield return new WaitForFixedUpdate();
 			yield return new WaitUntil(()
-			   => ((Input.GetMouseButtonDown(1))
-					//&& (avatarIsGrounded == true)
-						&& (avatarIsAttacking == false)
-						));
+			   => ((Input.GetMouseButtonDown(0))
+						&& (avatarIsAttacking == false)));
 
 			avatarIsAttacking = true;
 			GetComponent<Animator>().
-				SetTrigger("Attack" + Random.Range(1, 2));
+				SetTrigger("Attack" + Random.Range(1, 3));
 
 			attackSFXPlayer.PlayAttackSFX();
 

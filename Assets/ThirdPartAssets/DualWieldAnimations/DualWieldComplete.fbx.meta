@@ -3,7 +3,7 @@ guid: 3eda34d9ae18b074c8f97eb7dc142c46
 timeCreated: 1455485623
 licenseType: Store
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: AnimModel
     100002: Armature
@@ -237,516 +237,317 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 'MuscleClip ''DuelWieldComplete'' conversion warning:
-      ''Armature/Hip/LowerSpine/MiddleSpine'' is between humanoid transforms and has
-      rotation animation. This might lower retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-      MuscleClip ''DuelWieldComplete'' conversion warning: ''Armature/Hip/LowerSpine/MiddleSpine''
-      is between humanoid transforms and has rotation animation. This might lower
-      retargeting quality.
-
-
-'
+    animationImportWarnings: "\nClip 'Airborne' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'MiddleSpine' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'AirborneLand' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack06' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack07' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack08' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack09' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack10' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack11' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack12' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Attack13' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AttackCombo01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AttackCombo02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AttackCombo03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AttackRM01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AttackRM02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'BlockHit01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'BlockHit02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'BlockIdle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death01GetUp' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death02GetUp' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death03GetUp' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death04GetUp' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death05GetUp' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Deflect01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Deflect02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Deflect03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'DeflectStagger01' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'DeflectStagger02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'DeflectStagger03' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge06' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge07' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge08' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge09' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dodge10' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit06' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'GetHit07' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Idle01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Idle02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'IdleRandom01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'IdleRandom02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'IdleRandom03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'InjuredGetUp' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'InjuredLoop' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'InjuredStart' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Kick01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Kick02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Knockdown01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Knockdown01GetUp' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Knockdown02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Knockdown02GetUp' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Knockdown03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Knockdown03GetUp' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunB' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunF' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunL' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunR' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SheathPutAway01' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SheathPutAway02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SheathTakeOut01' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SheathTakeOut02' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Stagger01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Stagger02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Stagger03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Stagger04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Stagger05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Taunt01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Taunt02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Taunt03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Taunt04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Taunt05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Throw01' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Throw02' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Throw03' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Throw04' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Throw05' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'WalkB' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'WalkF' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'WalkL' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'WalkR' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MiddleSpine'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
@@ -760,6 +561,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -890,6 +692,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: AirborneLand
       takeName: AirborneLand
@@ -900,6 +703,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1030,6 +834,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack01
       takeName: Attack01
@@ -1040,6 +845,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1170,6 +976,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack02
       takeName: Attack02
@@ -1180,6 +987,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1310,6 +1118,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack03
       takeName: Attack03
@@ -1320,6 +1129,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1450,6 +1260,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack04
       takeName: Attack04
@@ -1460,6 +1271,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1590,6 +1402,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack05
       takeName: Attack05
@@ -1600,6 +1413,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1730,6 +1544,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack06
       takeName: Attack06
@@ -1740,6 +1555,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1870,6 +1686,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack07
       takeName: Attack07
@@ -1880,6 +1697,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2010,6 +1828,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack08
       takeName: Attack08
@@ -2020,6 +1839,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2150,16 +1970,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack09
       takeName: Attack09
       firstFrame: 0
       lastFrame: 70
       wrapMode: 0
-      orientationOffsetY: -2.94000006
+      orientationOffsetY: -2.94
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2290,6 +2112,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack10
       takeName: Attack10
@@ -2300,6 +2123,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2430,6 +2254,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack11
       takeName: Attack11
@@ -2440,6 +2265,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2570,6 +2396,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack12
       takeName: Attack12
@@ -2580,6 +2407,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2710,6 +2538,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Attack13
       takeName: Attack13
@@ -2720,6 +2549,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2850,16 +2680,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: AttackCombo01
       takeName: AttackCombo01
       firstFrame: 0
       lastFrame: 79
       wrapMode: 0
-      orientationOffsetY: -.610000014
+      orientationOffsetY: -0.61
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2990,6 +2822,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: AttackCombo02
       takeName: AttackCombo02
@@ -3000,6 +2833,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3130,6 +2964,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: AttackCombo03
       takeName: AttackCombo03
@@ -3140,7 +2975,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
@@ -3264,22 +3100,24 @@ ModelImporter:
         weight: 1
       - path: Armature/Hip/RThigh/RShin/RFoot/RToe
         weight: 1
-      - path: Sword
-        weight: 0
       - path: Sword_001
+        weight: 0
+      - path: Sword_002
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: AttackRM01
       takeName: AttackRM01
       firstFrame: 0
       lastFrame: 48
       wrapMode: 0
-      orientationOffsetY: -2.92000008
+      orientationOffsetY: -2.92
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3410,6 +3248,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: AttackRM02
       takeName: AttackRM02
@@ -3420,6 +3259,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3550,6 +3390,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: BlockHit01
       takeName: BlockHit01
@@ -3560,6 +3401,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3690,6 +3532,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: BlockHit02
       takeName: BlockHit02
@@ -3700,6 +3543,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3830,6 +3674,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: BlockIdle
       takeName: BlockIdle
@@ -3840,6 +3685,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3970,6 +3816,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death01
       takeName: Death01
@@ -3980,6 +3827,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4110,6 +3958,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death01GetUp
       takeName: Death01GetUp
@@ -4120,6 +3969,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4250,6 +4100,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death02
       takeName: Death02
@@ -4260,6 +4111,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4390,6 +4242,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death02GetUp
       takeName: Death02GetUp
@@ -4400,6 +4253,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4530,6 +4384,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death03
       takeName: Death03
@@ -4540,6 +4395,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4670,6 +4526,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death03GetUp
       takeName: Death03GetUp
@@ -4680,6 +4537,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4810,6 +4668,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death04
       takeName: Death04
@@ -4820,6 +4679,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4950,6 +4810,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death04GetUp
       takeName: Death04GetUp
@@ -4960,6 +4821,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5090,6 +4952,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death05
       takeName: Death05
@@ -5100,6 +4963,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5230,6 +5094,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Death05GetUp
       takeName: Death05GetUp
@@ -5240,6 +5105,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5370,6 +5236,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Deflect01
       takeName: Deflect01
@@ -5380,6 +5247,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5510,6 +5378,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Deflect02
       takeName: Deflect02
@@ -5520,6 +5389,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5650,6 +5520,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Deflect03
       takeName: Deflect03
@@ -5660,6 +5531,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5790,6 +5662,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: DeflectStagger01
       takeName: DeflectStagger01
@@ -5800,6 +5673,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5930,6 +5804,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: DeflectStagger02
       takeName: DeflectStagger02
@@ -5940,6 +5815,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6070,6 +5946,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: DeflectStagger03
       takeName: DeflectStagger03
@@ -6080,6 +5957,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6210,6 +6088,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge01
       takeName: Dodge01
@@ -6220,6 +6099,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6350,6 +6230,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge02
       takeName: Dodge02
@@ -6360,6 +6241,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6490,6 +6372,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge03
       takeName: Dodge03
@@ -6500,6 +6383,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6630,6 +6514,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge04
       takeName: Dodge04
@@ -6640,6 +6525,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6770,6 +6656,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge05
       takeName: Dodge05
@@ -6780,6 +6667,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6910,6 +6798,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge06
       takeName: Dodge06
@@ -6920,6 +6809,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7050,16 +6940,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge07
       takeName: Dodge07
       firstFrame: 0
       lastFrame: 44
       wrapMode: 0
-      orientationOffsetY: -8.03999996
+      orientationOffsetY: -8.04
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7190,16 +7082,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge08
       takeName: Dodge08
       firstFrame: 0
       lastFrame: 46
       wrapMode: 0
-      orientationOffsetY: -12.8199997
+      orientationOffsetY: -12.82
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7330,16 +7224,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge09
       takeName: Dodge09
       firstFrame: 0
       lastFrame: 37
       wrapMode: 0
-      orientationOffsetY: -9.94999981
+      orientationOffsetY: -9.95
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7470,6 +7366,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Dodge10
       takeName: Dodge10
@@ -7480,6 +7377,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7610,6 +7508,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit01
       takeName: GetHit01
@@ -7620,6 +7519,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7750,6 +7650,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit02
       takeName: GetHit02
@@ -7760,6 +7661,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7890,6 +7792,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit03
       takeName: GetHit03
@@ -7900,6 +7803,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8030,6 +7934,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit04
       takeName: GetHit04
@@ -8040,6 +7945,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8170,6 +8076,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit05
       takeName: GetHit05
@@ -8180,6 +8087,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8310,6 +8218,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit06
       takeName: GetHit06
@@ -8320,6 +8229,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8450,6 +8360,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: GetHit07
       takeName: GetHit07
@@ -8460,6 +8371,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8590,6 +8502,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle01
       takeName: Idle01
@@ -8600,6 +8513,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8730,6 +8644,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle02
       takeName: Idle02
@@ -8740,6 +8655,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8870,6 +8786,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleRandom01
       takeName: IdleRandom01
@@ -8880,6 +8797,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9010,6 +8928,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleRandom02
       takeName: IdleRandom02
@@ -9020,6 +8939,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9150,6 +9070,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleRandom03
       takeName: IdleRandom03
@@ -9160,6 +9081,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9290,6 +9212,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: InjuredGetUp
       takeName: InjuredGetUp
@@ -9300,6 +9223,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9430,6 +9354,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: InjuredLoop
       takeName: InjuredLoop
@@ -9440,6 +9365,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9570,6 +9496,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: InjuredStart
       takeName: InjuredStart
@@ -9580,6 +9507,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9710,6 +9638,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Jump
       takeName: Jump
@@ -9720,6 +9649,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9850,16 +9780,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Kick01
       takeName: Kick01
       firstFrame: 0
       lastFrame: 49
       wrapMode: 0
-      orientationOffsetY: -7.26999998
+      orientationOffsetY: -7.27
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9990,16 +9922,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Kick02
       takeName: Kick02
       firstFrame: 0
       lastFrame: 69
       wrapMode: 0
-      orientationOffsetY: -6.1500001
+      orientationOffsetY: -6.15
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10130,6 +10064,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Knockdown01
       takeName: Knockdown01
@@ -10140,6 +10075,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10270,6 +10206,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Knockdown01GetUp
       takeName: Knockdown01GetUp
@@ -10280,6 +10217,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10410,6 +10348,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Knockdown02
       takeName: Knockdown02
@@ -10420,6 +10359,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10550,6 +10490,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Knockdown02GetUp
       takeName: Knockdown02GetUp
@@ -10560,6 +10501,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10690,6 +10632,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Knockdown03
       takeName: Knockdown03
@@ -10700,6 +10643,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10830,6 +10774,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Knockdown03GetUp
       takeName: Knockdown03GetUp
@@ -10840,6 +10785,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -10970,16 +10916,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunB
       takeName: RunB
       firstFrame: 0
       lastFrame: 25
       wrapMode: 0
-      orientationOffsetY: 6.07999992
+      orientationOffsetY: 6.08
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11110,16 +11058,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunF
       takeName: RunF
       firstFrame: 0
       lastFrame: 27
       wrapMode: 0
-      orientationOffsetY: .579999983
+      orientationOffsetY: 0.58
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11250,16 +11200,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunL
       takeName: RunL
       firstFrame: 0
       lastFrame: 27
       wrapMode: 0
-      orientationOffsetY: -9.88000011
+      orientationOffsetY: -9.88
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11390,16 +11342,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunR
       takeName: RunR
       firstFrame: 0
       lastFrame: 27
       wrapMode: 0
-      orientationOffsetY: -9.88000011
+      orientationOffsetY: -9.88
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11530,6 +11484,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SheathPutAway01
       takeName: SheathPutAway01
@@ -11540,6 +11495,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11670,6 +11626,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SheathPutAway02
       takeName: SheathPutAway02
@@ -11680,6 +11637,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11810,6 +11768,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SheathTakeOut01
       takeName: SheathTakeOut01
@@ -11820,6 +11779,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -11950,6 +11910,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: SheathTakeOut02
       takeName: SheathTakeOut02
@@ -11960,6 +11921,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12090,6 +12052,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Stagger01
       takeName: Stagger01
@@ -12100,6 +12063,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12230,6 +12194,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Stagger02
       takeName: Stagger02
@@ -12240,6 +12205,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12370,6 +12336,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Stagger03
       takeName: Stagger03
@@ -12380,6 +12347,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12510,6 +12478,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Stagger04
       takeName: Stagger04
@@ -12520,6 +12489,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12650,6 +12620,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Stagger05
       takeName: Stagger05
@@ -12660,6 +12631,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12790,6 +12762,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Taunt01
       takeName: Taunt01
@@ -12800,6 +12773,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -12930,6 +12904,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Taunt02
       takeName: Taunt02
@@ -12940,6 +12915,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13070,6 +13046,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Taunt03
       takeName: Taunt03
@@ -13080,6 +13057,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13210,6 +13188,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Taunt04
       takeName: Taunt04
@@ -13220,6 +13199,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13350,6 +13330,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Taunt05
       takeName: Taunt05
@@ -13360,6 +13341,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13490,6 +13472,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Throw01
       takeName: Throw01
@@ -13500,6 +13483,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13630,6 +13614,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Throw02
       takeName: Throw02
@@ -13640,6 +13625,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13770,6 +13756,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Throw03
       takeName: Throw03
@@ -13780,6 +13767,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -13910,6 +13898,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Throw04
       takeName: Throw04
@@ -13920,6 +13909,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -14050,6 +14040,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Throw05
       takeName: Throw05
@@ -14060,6 +14051,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -14190,16 +14182,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkB
       takeName: WalkB
       firstFrame: 0
       lastFrame: 36
       wrapMode: 0
-      orientationOffsetY: 3.1099999
+      orientationOffsetY: 3.11
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -14330,16 +14324,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkF
       takeName: WalkF
       firstFrame: 0
       lastFrame: 36
       wrapMode: 0
-      orientationOffsetY: 3.1099999
+      orientationOffsetY: 3.11
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -14470,16 +14466,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkL
       takeName: WalkL
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
-      orientationOffsetY: 4.36000013
+      orientationOffsetY: 4.36
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -14610,16 +14608,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkR
       takeName: WalkR
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
-      orientationOffsetY: 4.36000013
+      orientationOffsetY: 4.36
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -14750,6 +14750,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -14770,9 +14771,8 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -15192,295 +15192,298 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: AnimModel
-      position: {x: 0, y: .0115618389, z: .468609601}
+      position: {x: 0, y: 0.011561839, z: 0.4686096}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Armature
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Hip
-      position: {x: 0, y: -1.03256028e-07, z: .866174281}
-      rotation: {x: .402301401, y: .402301401, z: -.581509709, w: .581509769}
-      scale: {x: .99999994, y: 1, z: 1}
+      position: {x: 0, y: -0.00000010325603, z: 0.8661743}
+      rotation: {x: 0.4023014, y: 0.4023014, z: -0.5815097, w: 0.58150977}
+      scale: {x: 0.99999994, y: 1, z: 1}
       transformModified: 1
     - name: LowerSpine
-      position: {x: -.10203363, y: 7.70332509e-09, z: -.0139270211}
-      rotation: {x: 1.54630406e-08, y: .204814211, z: -1.52253389e-15, w: .978800893}
-      scale: {x: .99999994, y: 1, z: 1}
+      position: {x: -0.10203363, y: 0.000000007703325, z: -0.013927021}
+      rotation: {x: 0.00000001546304, y: 0.20481421, z: -1.5225339e-15, w: 0.9788009}
+      scale: {x: 0.99999994, y: 1, z: 1}
       transformModified: 1
     - name: MiddleSpine
-      position: {x: -.0827636495, y: 6.24848129e-09, z: -1.19209287e-09}
-      rotation: {x: -1.02064783e-08, y: -.135188907, z: -1.6693013e-16, w: .990819871}
+      position: {x: -0.08276365, y: 0.0000000062484813, z: -0.0000000011920929}
+      rotation: {x: -0.000000010206478, y: -0.1351889, z: -1.6693013e-16, w: 0.9908199}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Chest
-      position: {x: -.10477405, y: 7.9102227e-09, z: -1.7881393e-09}
-      rotation: {x: 1.62629341e-08, y: .215409115, z: 7.17960902e-16, w: .976523936}
-      scale: {x: .99999994, y: 1, z: .99999994}
+      position: {x: -0.10477405, y: 0.000000007910223, z: -0.0000000017881393}
+      rotation: {x: 0.000000016262934, y: 0.21540911, z: 7.179609e-16, w: 0.97652394}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
       transformModified: 1
     - name: LClavicle
-      position: {x: -.233551502, y: -.0232669823, z: .0269479025}
-      rotation: {x: -.090625681, y: -.280406326, z: .606504023, w: .738452554}
-      scale: {x: .99999994, y: .99999994, z: .999999881}
+      position: {x: -0.2335515, y: -0.023266982, z: 0.026947903}
+      rotation: {x: -0.09062568, y: -0.28040633, z: 0.606504, w: 0.73845255}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
       transformModified: 1
     - name: LShoulder
-      position: {x: -.148861006, y: -9.53674295e-09, z: 2.14576712e-08}
-      rotation: {x: .154018015, y: .152279243, z: .138343215, w: .966411233}
-      scale: {x: .99999994, y: .99999994, z: .99999994}
+      position: {x: -0.148861, y: -0.000000009536743, z: 0.000000021457671}
+      rotation: {x: 0.15401801, y: 0.15227924, z: 0.13834321, w: 0.96641123}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: LForearm
-      position: {x: -.288756698, y: -2.27242714e-09, z: 8.94069652e-10}
-      rotation: {x: .00133750786, y: .00136078161, z: -.00321575627, w: .999993026}
-      scale: {x: 1, y: .99999994, z: .99999994}
+      position: {x: -0.2887567, y: -0.0000000022724271, z: 8.9406965e-10}
+      rotation: {x: 0.0013375079, y: 0.0013607816, z: -0.0032157563, w: 0.999993}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: LHand
-      position: {x: -.240878284, y: -3.60049306e-08, z: -8.94069652e-10}
-      rotation: {x: -.0167475864, y: -.0167798828, z: -.0027830468, w: .99971509}
-      scale: {x: 1, y: .99999994, z: 1}
+      position: {x: -0.24087828, y: -0.00000003600493, z: -8.9406965e-10}
+      rotation: {x: -0.016747586, y: -0.016779883, z: -0.0027830468, w: 0.9997151}
+      scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
     - name: LFinger0
-      position: {x: -.0186020005, y: -.0153596615, z: .0147968372}
-      rotation: {x: .340478688, y: .318575531, z: -.140436798, w: .873419464}
-      scale: {x: 1, y: .99999994, z: .99999994}
+      position: {x: -0.018602, y: -0.015359662, z: 0.014796837}
+      rotation: {x: 0.3404787, y: 0.31857553, z: -0.1404368, w: 0.87341946}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: LFinger01
-      position: {x: -.0465521701, y: -1.46031374e-08, z: -2.98023217e-10}
-      rotation: {x: -.0137499189, y: -.000691460446, z: .0167050511, w: .999765694}
-      scale: {x: .99999994, y: 1, z: .99999994}
+      position: {x: -0.04655217, y: -0.000000014603137, z: -2.9802322e-10}
+      rotation: {x: -0.013749919, y: -0.00069146045, z: 0.016705051, w: 0.9997657}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
       transformModified: 1
     - name: LFinger02
-      position: {x: -.0303866528, y: -7.74860354e-09, z: -1.17421145e-07}
-      rotation: {x: -.0152504984, y: -.0110760722, z: .00421855366, w: .999813437}
-      scale: {x: .99999994, y: 1, z: 1.00000012}
+      position: {x: -0.030386653, y: -0.0000000077486035, z: -0.000000117421145}
+      rotation: {x: -0.015250498, y: -0.011076072, z: 0.0042185537, w: 0.99981344}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
       transformModified: 1
     - name: LFinger1
-      position: {x: -.0923133343, y: .00627303682, z: .0298834108}
-      rotation: {x: .0602248497, y: .100794651, z: -.0392266549, w: .992307723}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      position: {x: -0.092313334, y: 0.006273037, z: 0.02988341}
+      rotation: {x: 0.06022485, y: 0.10079465, z: -0.039226655, w: 0.9923077}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
       transformModified: 1
     - name: LFinger11
-      position: {x: -.0364660434, y: -3.30805783e-08, z: 1.31130218e-08}
-      rotation: {x: 3.74680421e-05, y: 3.90326641e-05, z: 5.14071507e-05, w: 1}
-      scale: {x: .99999994, y: .99999994, z: .999999881}
+      position: {x: -0.036466043, y: -0.00000003308058, z: 0.000000013113022}
+      rotation: {x: 0.000037468042, y: 0.000039032664, z: 0.00005140715, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
       transformModified: 1
     - name: LFinger12
-      position: {x: -.024895383, y: -2.19047056e-08, z: -1.19209287e-09}
-      rotation: {x: -.00858412869, y: -.00226635323, z: .0261192098, w: .999619424}
-      scale: {x: 1, y: .99999994, z: .999999881}
+      position: {x: -0.024895383, y: -0.000000021904706, z: -0.0000000011920929}
+      rotation: {x: -0.008584129, y: -0.0022663532, z: 0.02611921, w: 0.9996194}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
       transformModified: 1
     - name: LFinger2
-      position: {x: -.0946546644, y: .00845393166, z: .00635428773}
-      rotation: {x: .0167907123, y: .0168209318, z: .00284458487, w: .99971348}
-      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      position: {x: -0.094654664, y: 0.008453932, z: 0.0063542877}
+      rotation: {x: 0.016790712, y: 0.016820932, z: 0.0028445849, w: 0.9997135}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: LFinger21
-      position: {x: -.0431768708, y: 2.41026274e-08, z: 4.17232515e-09}
-      rotation: {x: -9.70857218e-05, y: -9.65627551e-05, z: -.000136320479, w: 1}
-      scale: {x: 1, y: 1, z: .99999994}
+      position: {x: -0.04317687, y: 0.000000024102627, z: 0.000000004172325}
+      rotation: {x: -0.00009708572, y: -0.000096562755, z: -0.00013632048, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
       transformModified: 1
     - name: LFinger22
-      position: {x: -.023931494, y: -3.36393704e-08, z: 2.6822089e-09}
-      rotation: {x: .00384799019, y: .00363545329, z: .0367756635, w: .99930954}
-      scale: {x: 1.00000012, y: 1, z: 1}
+      position: {x: -0.023931494, y: -0.00000003363937, z: 0.000000002682209}
+      rotation: {x: 0.0038479902, y: 0.0036354533, z: 0.036775663, w: 0.99930954}
+      scale: {x: 1.0000001, y: 1, z: 1}
       transformModified: 1
     - name: LFinger3
-      position: {x: -.0906115994, y: .00628955243, z: -.0174292922}
-      rotation: {x: -.0116682807, y: -.0128978956, z: .0284722168, w: .999443293}
-      scale: {x: 1, y: .99999994, z: 1}
+      position: {x: -0.0906116, y: 0.0062895524, z: -0.017429292}
+      rotation: {x: -0.011668281, y: -0.012897896, z: 0.028472217, w: 0.9994433}
+      scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
     - name: LFinger31
-      position: {x: -.0393048413, y: 1.49011612e-08, z: 2.38418574e-09}
-      rotation: {x: -.000121743207, y: -.000104956678, z: -.000175342662, w: 1}
+      position: {x: -0.03930484, y: 0.000000014901161, z: 0.0000000023841857}
+      rotation: {x: -0.00012174321, y: -0.00010495668, z: -0.00017534266, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: LFinger32
-      position: {x: -.0223972071, y: -2.98023217e-10, z: -1.19209287e-09}
-      rotation: {x: .00842937827, y: .00574629661, z: .0363805741, w: .999285936}
+      position: {x: -0.022397207, y: -2.9802322e-10, z: -0.0000000011920929}
+      rotation: {x: 0.008429378, y: 0.0057462966, z: 0.036380574, w: 0.99928594}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: LFinger4
-      position: {x: -.0846632048, y: -.00565689057, z: -.0336052403}
-      rotation: {x: -.124283478, y: -.0230990648, z: .00556362467, w: .991962254}
-      scale: {x: 1, y: .999999881, z: 1}
+      position: {x: -0.084663205, y: -0.0056568906, z: -0.03360524}
+      rotation: {x: -0.12428348, y: -0.023099065, z: 0.0055636247, w: 0.99196225}
+      scale: {x: 1, y: 0.9999999, z: 1}
       transformModified: 1
     - name: LFinger41
-      position: {x: -.0254992582, y: -2.86102289e-08, z: 1.90734859e-08}
-      rotation: {x: -9.77823438e-05, y: -4.93740772e-05, z: -.000121969744, w: 1}
-      scale: {x: .99999994, y: 1.00000012, z: 1}
+      position: {x: -0.025499258, y: -0.000000028610229, z: 0.000000019073486}
+      rotation: {x: -0.000097782344, y: -0.000049374077, z: -0.000121969744, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
       transformModified: 1
     - name: LFinger42
-      position: {x: -.0186984818, y: 2.62260436e-08, z: 1.90734859e-08}
-      rotation: {x: .0269973595, y: .0129903378, z: .036034096, w: .998901367}
-      scale: {x: .99999994, y: .999999881, z: .99999994}
+      position: {x: -0.018698482, y: 0.000000026226044, z: 0.000000019073486}
+      rotation: {x: 0.02699736, y: 0.012990338, z: 0.036034096, w: 0.99890137}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
       transformModified: 1
     - name: Neck
-      position: {x: -.224124655, y: 1.69209411e-08, z: -.0538958125}
-      rotation: {x: 1.90157512e-09, y: .025187131, z: 6.37328145e-18, w: .999682784}
-      scale: {x: .99999994, y: 1, z: .99999994}
+      position: {x: -0.22412466, y: 0.000000016920941, z: -0.053895812}
+      rotation: {x: 0.0000000019015751, y: 0.025187131, z: 6.3732814e-18, w: 0.9996828}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
       transformModified: 1
     - name: Head
-      position: {x: -.134874508, y: 1.01827391e-08, z: -2.38418574e-09}
-      rotation: {x: -3.7279321e-07, y: -.117592961, z: 2.72443344e-06, w: .9930619}
+      position: {x: -0.13487451, y: 0.000000010182739, z: -0.0000000023841857}
+      rotation: {x: -0.0000003727932, y: -0.11759296, z: 0.0000027244334, w: 0.9930619}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: RClavicle
-      position: {x: -.233551502, y: .0232670158, z: .0269479025}
-      rotation: {x: .0906163454, y: -.280411601, z: -.606499791, w: .738455176}
-      scale: {x: 1, y: 1, z: .99999994}
+      position: {x: -0.2335515, y: 0.023267016, z: 0.026947903}
+      rotation: {x: 0.090616345, y: -0.2804116, z: -0.6064998, w: 0.7384552}
+      scale: {x: 1, y: 1, z: 0.99999994}
       transformModified: 1
     - name: RShoulder
-      position: {x: -.14888677, y: 4.05311589e-08, z: -1.19209282e-08}
-      rotation: {x: -.154015481, y: .152276486, z: -.138341144, w: .966412365}
-      scale: {x: .99999994, y: .999999881, z: 1}
+      position: {x: -0.14888677, y: 0.00000004053116, z: -0.000000011920928}
+      rotation: {x: -0.15401548, y: 0.15227649, z: -0.13834114, w: 0.96641237}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
       transformModified: 1
     - name: RForearm
-      position: {x: -.288756639, y: 7.7858564e-09, z: 2.08616258e-09}
-      rotation: {x: -.00133755337, y: .00136075879, z: .00321656489, w: .999993026}
-      scale: {x: .999999881, y: .999999881, z: .999999881}
+      position: {x: -0.28875664, y: 0.000000007785856, z: 0.0000000020861626}
+      rotation: {x: -0.0013375534, y: 0.0013607588, z: 0.003216565, w: 0.999993}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
       transformModified: 1
     - name: RHand
-      position: {x: -.240878314, y: 5.62518814e-08, z: 2.38418574e-09}
-      rotation: {x: .016747551, y: -.0167798381, z: .00278437836, w: .99971509}
-      scale: {x: 1, y: .99999994, z: 1.00000012}
+      position: {x: -0.24087831, y: 0.00000005625188, z: 0.0000000023841857}
+      rotation: {x: 0.016747551, y: -0.016779838, z: 0.0027843784, w: 0.9997151}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
       transformModified: 1
     - name: RFinger0
-      position: {x: -.018601995, y: .0153596634, z: .014796841}
-      rotation: {x: -.340478241, y: .318575382, z: .140438706, w: .873419344}
-      scale: {x: .99999994, y: .99999994, z: .999999881}
+      position: {x: -0.018601995, y: 0.015359663, z: 0.014796841}
+      rotation: {x: -0.34047824, y: 0.31857538, z: 0.1404387, w: 0.87341934}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
       transformModified: 1
     - name: RFinger01
-      position: {x: -.0465521738, y: 2.38418565e-08, z: -2.35438335e-08}
-      rotation: {x: .0137498844, y: -.000691460446, z: -.0167051181, w: .999765694}
-      scale: {x: .99999994, y: .99999994, z: 1}
+      position: {x: -0.046552174, y: 0.000000023841856, z: -0.000000023543834}
+      rotation: {x: 0.013749884, y: -0.00069146045, z: -0.016705118, w: 0.9997657}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
       transformModified: 1
     - name: RFinger02
-      position: {x: -.0303865969, y: 2.32458106e-08, z: -1.2516975e-08}
-      rotation: {x: .0152504714, y: -.0110759865, z: -.00421860721, w: .999813437}
-      scale: {x: 1, y: 1.00000012, z: 1}
+      position: {x: -0.030386597, y: 0.00000002324581, z: -0.000000012516975}
+      rotation: {x: 0.015250471, y: -0.011075987, z: -0.004218607, w: 0.99981344}
+      scale: {x: 1, y: 1.0000001, z: 1}
       transformModified: 1
     - name: RFinger1
-      position: {x: -.092313394, y: -.00627279282, z: .029883394}
-      rotation: {x: -.0602234788, y: .100794263, z: .0392306224, w: .992307723}
-      scale: {x: .99999994, y: .99999994, z: .999999881}
+      position: {x: -0.092313394, y: -0.006272793, z: 0.029883394}
+      rotation: {x: -0.06022348, y: 0.10079426, z: 0.039230622, w: 0.9923077}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
       transformModified: 1
     - name: RFinger11
-      position: {x: -.0364660062, y: -7.74860354e-08, z: -1.43051144e-08}
-      rotation: {x: -3.7482936e-05, y: 3.91127542e-05, z: -5.1389452e-05, w: 1}
-      scale: {x: .999999881, y: 1, z: 1}
+      position: {x: -0.036466006, y: -0.000000077486035, z: -0.000000014305114}
+      rotation: {x: -0.000037482936, y: 0.000039112754, z: -0.000051389452, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
       transformModified: 1
     - name: RFinger12
-      position: {x: -.0248954967, y: -1.13248824e-08, z: -8.3446503e-09}
-      rotation: {x: .00858414453, y: -.0022663353, z: -.0261192862, w: .999619424}
-      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      position: {x: -0.024895497, y: -0.000000011324882, z: -0.00000000834465}
+      rotation: {x: 0.0085841445, y: -0.0022663353, z: -0.026119286, w: 0.9996194}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: RFinger2
-      position: {x: -.0946547315, y: -.00845471025, z: .00635432452}
-      rotation: {x: -.0167906713, y: .0168208946, z: -.00284580817, w: .99971348}
-      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      position: {x: -0.09465473, y: -0.00845471, z: 0.0063543245}
+      rotation: {x: -0.016790671, y: 0.016820895, z: -0.0028458082, w: 0.9997135}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: RFinger21
-      position: {x: -.0431769229, y: -2.27242714e-09, z: 1.19209287e-09}
-      rotation: {x: 9.70810215e-05, y: -9.65676081e-05, z: .000136290604, w: 1}
-      scale: {x: 1, y: 1, z: .99999994}
+      position: {x: -0.043176923, y: -0.0000000022724271, z: 0.0000000011920929}
+      rotation: {x: 0.00009708102, y: -0.00009656761, z: 0.0001362906, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
       transformModified: 1
     - name: RFinger22
-      position: {x: -.0239315163, y: -2.0433216e-08, z: -8.94069652e-10}
-      rotation: {x: -.00384799228, y: .00363546144, z: -.0367757268, w: .99930954}
-      scale: {x: 1.00000012, y: 1, z: 1}
+      position: {x: -0.023931516, y: -0.000000020433216, z: -8.9406965e-10}
+      rotation: {x: -0.0038479923, y: 0.0036354614, z: -0.036775727, w: 0.99930954}
+      scale: {x: 1.0000001, y: 1, z: 1}
       transformModified: 1
     - name: RFinger3
-      position: {x: -.0906116441, y: -.00628931262, z: -.0174292959}
-      rotation: {x: .0116682686, y: -.0128979385, z: -.0284734443, w: .999443233}
-      scale: {x: .99999994, y: .99999994, z: .999999881}
+      position: {x: -0.090611644, y: -0.0062893126, z: -0.017429296}
+      rotation: {x: 0.011668269, y: -0.0128979385, z: -0.028473444, w: 0.99944323}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
       transformModified: 1
     - name: RFinger31
-      position: {x: -.0393047892, y: 5.06639459e-08, z: -1.19209287e-09}
-      rotation: {x: .000121745601, y: -.000104982348, z: .000175225083, w: 1}
-      scale: {x: 1, y: .99999994, z: 1}
+      position: {x: -0.03930479, y: 0.000000050663946, z: -0.0000000011920929}
+      rotation: {x: 0.0001217456, y: -0.00010498235, z: 0.00017522508, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
     - name: RFinger32
-      position: {x: -.0223971941, y: 3.09944141e-08, z: 1.19209287e-09}
-      rotation: {x: -.008429382, y: .00574630313, z: -.0363805257, w: .999285936}
+      position: {x: -0.022397194, y: 0.000000030994414, z: 0.0000000011920929}
+      rotation: {x: -0.008429382, y: 0.005746303, z: -0.036380526, w: 0.99928594}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: RFinger4
-      position: {x: -.0846632272, y: .00565711595, z: -.0336052179}
-      rotation: {x: .124283105, y: -.0230985675, z: -.00556039903, w: .991962314}
+      position: {x: -0.08466323, y: 0.005657116, z: -0.033605218}
+      rotation: {x: 0.124283105, y: -0.023098568, z: -0.005560399, w: 0.9919623}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: RFinger41
-      position: {x: -.0254991557, y: 7.39097601e-08, z: 5.72204577e-08}
-      rotation: {x: 9.77469754e-05, y: -4.24217505e-05, z: .000146979495, w: 1}
-      scale: {x: .999999881, y: .999999881, z: .99999994}
+      position: {x: -0.025499156, y: 0.00000007390976, z: 0.000000057220458}
+      rotation: {x: 0.000097746975, y: -0.00004242175, z: 0.0001469795, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
       transformModified: 1
     - name: RFinger42
-      position: {x: -.0186983813, y: -5.48362706e-08, z: -2.86102289e-08}
-      rotation: {x: -.0269967541, y: .0129840625, z: -.0360593088, w: .998900592}
-      scale: {x: 1, y: 1, z: 1.00000012}
+      position: {x: -0.018698381, y: -0.00000005483627, z: -0.000000028610229}
+      rotation: {x: -0.026996754, y: 0.012984063, z: -0.03605931, w: 0.9989006}
+      scale: {x: 1, y: 1, z: 1.0000001}
       transformModified: 1
     - name: LThigh
-      position: {x: -.0411291644, y: -.0968859941, z: .00696404278}
-      rotation: {x: .179200947, y: .00164824154, z: .983769476, w: .00904868543}
-      scale: {x: 1.00000036, y: 1, z: 1.00000131}
+      position: {x: -0.041129164, y: -0.096885994, z: 0.006964043}
+      rotation: {x: 0.17920095, y: 0.0016482415, z: 0.9837695, w: 0.009048685}
+      scale: {x: 1.0000004, y: 1, z: 1.0000013}
       transformModified: 1
     - name: LShin
-      position: {x: -.421486318, y: 2.96529912e-08, z: 7.31464667e-10}
-      rotation: {x: 1.14548648e-07, y: -5.64975933e-09, z: .0091976095, w: .99995774}
-      scale: {x: .99999994, y: .99999994, z: 1}
+      position: {x: -0.42148632, y: 0.000000029652991, z: 7.3146467e-10}
+      rotation: {x: 0.00000011454865, y: -0.0000000056497593, z: 0.0091976095, w: 0.99995774}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
       transformModified: 1
     - name: LFoot
-      position: {x: -.413800865, y: 3.21369953e-08, z: -2.4626387e-10}
-      rotation: {x: .845996797, y: -7.94712776e-08, z: -.533187985, w: 4.9206605e-08}
-      scale: {x: 1.00000012, y: 1, z: .99999994}
+      position: {x: -0.41380087, y: 0.000000032136995, z: -2.4626387e-10}
+      rotation: {x: 0.8459968, y: -0.00000007947128, z: -0.533188, w: 0.000000049206605}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
       transformModified: 1
     - name: LToe
-      position: {x: -.105421282, y: 5.02241315e-09, z: 1.79528659e-08}
-      rotation: {x: 5.8099566e-08, y: -.221189588, z: 1.68529868e-09, w: .975230813}
-      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      position: {x: -0.10542128, y: 0.000000005022413, z: 0.000000017952866}
+      rotation: {x: 0.000000058099566, y: -0.22118959, z: 0.0000000016852987, w: 0.9752308}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
       transformModified: 1
     - name: RThigh
-      position: {x: -.0411263406, y: .0968859941, z: .00696298573}
-      rotation: {x: .179200992, y: -.00164838275, z: .983769476, w: -.00904877298}
-      scale: {x: 1.00000024, y: 1, z: 1.00000143}
+      position: {x: -0.04112634, y: 0.096885994, z: 0.0069629857}
+      rotation: {x: 0.17920099, y: -0.0016483827, z: 0.9837695, w: -0.009048773}
+      scale: {x: 1.0000002, y: 1, z: 1.0000014}
       transformModified: 1
     - name: RShin
-      position: {x: -.421483308, y: 3.94937274e-08, z: 1.19214294e-09}
-      rotation: {x: 8.46430481e-08, y: -5.4445608e-09, z: -.00919767004, w: .99995774}
+      position: {x: -0.4214833, y: 0.000000039493727, z: 0.0000000011921429}
+      rotation: {x: 0.00000008464305, y: -0.000000005444561, z: -0.00919767, w: 0.99995774}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: RFoot
-      position: {x: -.413800985, y: 4.16737471e-08, z: -1.85171406e-10}
-      rotation: {x: .845995426, y: -7.94724286e-08, z: -.533190131, w: 4.92047185e-08}
-      scale: {x: 1.00000024, y: 1, z: 1}
+      position: {x: -0.41380098, y: 0.000000041673747, z: -1.851714e-10}
+      rotation: {x: 0.8459954, y: -0.00000007947243, z: -0.53319013, w: 0.00000004920472}
+      scale: {x: 1.0000002, y: 1, z: 1}
       transformModified: 1
     - name: RToe
-      position: {x: -.105419926, y: -4.51479476e-09, z: -6.55461605e-08}
-      rotation: {x: 5.80998112e-08, y: -.221187145, z: 1.68511938e-09, w: .975231409}
-      scale: {x: 1, y: 1, z: .99999994}
+      position: {x: -0.10541993, y: -0.0000000045147948, z: -0.00000006554616}
+      rotation: {x: 0.00000005809981, y: -0.22118714, z: 0.0000000016851194, w: 0.9752314}
+      scale: {x: 1, y: 1, z: 0.99999994}
       transformModified: 1
     - name: Sword
-      position: {x: .75, y: -.552272499, z: .511011541}
-      rotation: {x: 3.14654873e-18, y: -1.10594556e-08, z: 1.86264515e-09, w: 1}
+      position: {x: 0.75, y: -0.5522725, z: 0.51101154}
+      rotation: {x: 3.1465487e-18, y: -0.000000011059456, z: 0.0000000018626451, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Sword_001
-      position: {x: -.749995351, y: -.552272439, z: .511011541}
-      rotation: {x: 8.38190317e-09, y: -6.69388101e-09, z: -2.88709998e-08, w: 1}
-      scale: {x: 1, y: .99999994, z: 1}
+      position: {x: -0.74999535, y: -0.55227244, z: 0.51101154}
+      rotation: {x: 0.000000008381903, y: -0.000000006693881, z: -0.000000028871,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

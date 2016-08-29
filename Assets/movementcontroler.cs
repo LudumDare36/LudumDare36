@@ -1,28 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class movementcontroler : MonoBehaviour {
-	
+public class movementcontroler : MonoBehaviour
+{
 
-
-	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate ()
+	{
 		transform.GetComponent<Animator>().
 			SetFloat("Forward", Input.GetAxis("Vertical"));
 
-		transform.GetComponent<Rigidbody>().MovePosition(
-			(transform.position+(Camera.main.transform.forward
-                * (Time.deltaTime * (Input.GetAxis("Vertical") * 9f)))));
+        transform.GetComponent<Rigidbody>().MovePosition(
+            (transform.position + ((transform.forward 
+                * ((Input.GetAxis("Vertical") * 9f)))
+                    * Time.smoothDeltaTime)));
 
-        transform.forward
-            = Camera.main.transform.forward;
-
-        Camera.main.transform.Rotate(0f, (
-            Input.GetAxis("Horizontal")*90f) * Time.deltaTime, 0f);
-
-        Camera.main.transform.position
-            = Vector3.Lerp(Camera.main.transform.position, (transform.position
-                -(transform.forward*8f)+(Vector3.up*3f)), Time.deltaTime);
+        transform.Rotate(0f, ((Input.GetAxis("Horizontal") 
+            * Time.smoothDeltaTime) * 90f), 0f);
+        
 	}
 }
