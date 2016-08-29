@@ -2363,8 +2363,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -2771,8 +2771,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -3038,8 +3038,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -3305,8 +3305,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -3572,8 +3572,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -3839,8 +3839,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -4106,8 +4106,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -4373,8 +4373,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 1
   m_Damping: 0.111
-  m_ExternalAcceleration: {x: 0, y: 6, z: 18}
-  m_RandomAcceleration: {x: 6, y: 9, z: 27}
+  m_ExternalAcceleration: {x: 0, y: 12, z: 18}
+  m_RandomAcceleration: {x: 6, y: 18, z: 27}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5

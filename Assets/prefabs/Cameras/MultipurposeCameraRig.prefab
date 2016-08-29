@@ -14,9 +14,12 @@ GameObject:
   - 81: {fileID: 8119204}
   - 167: {fileID: 16799602}
   - 114: {fileID: 11445766}
-  - 114: {fileID: 11462544}
   - 114: {fileID: 11487240}
   - 114: {fileID: 11484646}
+  - 114: {fileID: 11435236}
+  - 114: {fileID: 11478178}
+  - 114: {fileID: 11406946}
+  - 114: {fileID: 11426180}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -94,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.14, z: -7.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -323,6 +326,44 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101084}
   m_Enabled: 1
+--- !u!114 &11406946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec92b071d2d424aecb3e46f28eb63174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adaptationSpeed: 0.666
+  limitMinimum: 0.1111
+  limitMaximum: 0.6666
+  shaderLum: {fileID: 4800000, guid: befbb4b9c320b4b18a08ef7afb93b6c9, type: 3}
+  shaderReduce: {fileID: 4800000, guid: 57b33a14b6d5347c5a85c36f6cb3b280, type: 3}
+  shaderAdapt: {fileID: 4800000, guid: 257bc83cbeb544540bd0e558aa9b1383, type: 3}
+  shaderApply: {fileID: 4800000, guid: f4901f25d4e1542589348bbb89563d8e, type: 3}
+--- !u!114 &11426180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Radius: 0.666
+  m_SampleCount: 2
+  m_OcclusionIntensity: 2
+  m_Blur: 4
+  m_Downsampling: 1
+  m_OcclusionAttenuation: 1
+  m_MinZ: 0.01
+  m_SSAOShader: {fileID: 4800000, guid: 43ca18288c424f645aaa1e9e07f04c50, type: 3}
+  m_RandomTexture: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
 --- !u!114 &11426236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -334,7 +375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708bafff2e6962c4a95a23d5edc93219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Mode: 0
+  _Mode: 2
   _Anchor: {fileID: 0}
   _FrameForceToFollowAnchor: 0
   _IsInternalUpdateEnabled: 1
@@ -343,16 +384,16 @@ MonoBehaviour:
   _InputSourceOwner: {fileID: 0}
   _AutoFindInputSource: 1
   _InvertPitch: 1
-  _AnchorOffset: {x: 0, y: 4, z: 0}
-  _AnchorDistance: 9
+  _AnchorOffset: {x: 0, y: 2, z: 0}
+  _AnchorDistance: 18
   _AnchorTime: 0.4
   _AnchorOrbitsCamera: 1
   _IsAltModeEnabled: 1
   _AltActionAlias: Fire3
   _AltActionAliasAsToggle: 1
-  _AltAnchorOffset: {x: 0.7, y: 1.7, z: 0}
+  _AltAnchorOffset: {x: 1, y: 1.5, z: 0}
   _AltAnchorDistance: 1
-  _AltAnchorTime: 0.15
+  _AltAnchorTime: 0.333
   _AltForceActorToView: 1
   _YawSpeed: 120
   _PitchSpeed: 90
@@ -365,11 +406,11 @@ MonoBehaviour:
   _CollisionLayers: 1
   _AutoCollisionRadius: 1
   _AutoCollisionRadiusFactor: 3
-  _CollisionRadius: 0.25
+  _CollisionRadius: 0.4525265
   _IsObstructionsEnabled: 1
   _IsAltObstructionsEnabled: 1
   _AutoObstructionRadius: 1
-  _ObstructionRadius: 0.25
+  _ObstructionRadius: 0.4525265
   _RecoveryDelay: 0.25
   _MinDistance: 0
   _MaxDistance: 144
@@ -380,7 +421,7 @@ MonoBehaviour:
   mIsFieldOfViewEnabled: 1
   mIsAltFieldOfViewEnabled: 1
   _FieldOfViewActionAlias: Mouse ScrollWheel
-  _FieldOfView: 0
+  _FieldOfView: 59.998234
   _MinFieldOfView: 20
   _FieldOfViewSpeed: -20
   _FieldOfViewSmoothing: 0.1
@@ -389,19 +430,38 @@ MonoBehaviour:
     m_Curve:
     - time: 0
       value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - time: 0.5
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     - time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -2
+      outSlope: -2
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  mDistanceEnd: 9
+  mDistanceEnd: 1
   EditorTabIndex: 1
+--- !u!114 &11435236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
+  blurAmount: 0.333
+  extraBlur: 0
 --- !u!114 &11445766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -431,7 +491,7 @@ MonoBehaviour:
   dx11BokehTexture: {fileID: 2800000, guid: a4cdca73d61814d33ac1587f6c163bca, type: 3}
   dx11BokehScale: 1.2
   dx11BokehIntensity: 2.5
---- !u!114 &11462544
+--- !u!114 &11478178
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -439,12 +499,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 101084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478a2083ad114a07d000fbfb8d76c639, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: e9ba2083ad114a07d000fbfb8d76c639, type: 3}
-  blurAmount: 0.333
-  extraBlur: 0
+  tweakMode: 1
+  screenBlendMode: 1
+  hdr: 1
+  sepBlurSpread: 2.5
+  quality: 1
+  bloomIntensity: 0.333
+  bloomThreshold: 0.666
+  bloomThresholdColor: {r: 1, g: 1, b: 1, a: 1}
+  bloomBlurIterations: 3
+  hollywoodFlareBlurIterations: 2
+  flareRotation: 0
+  lensflareMode: 2
+  hollyStretchWidth: 2.5
+  lensflareIntensity: 0
+  lensflareThreshold: 0.3
+  lensFlareSaturation: 0.75
+  flareColorA: {r: 0.4, g: 0.4, b: 0.8, a: 0.75}
+  flareColorB: {r: 0.4, g: 0.8, b: 0.8, a: 0.75}
+  flareColorC: {r: 0.8, g: 0.4, b: 0.8, a: 0.75}
+  flareColorD: {r: 0.8, g: 0.4, b: 0, a: 0.75}
+  lensFlareVignetteMask: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8,
+    type: 3}
+  lensFlareShader: {fileID: 4800000, guid: 459fe69d2f6d74ddb92f04dbf45a866b, type: 3}
+  screenBlendShader: {fileID: 4800000, guid: 7856cbff0a0ca45c787d5431eb805bb0, type: 3}
+  blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
+  brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
+    type: 3}
 --- !u!114 &11484646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -456,8 +540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4739c22ef73ad62488fe344c8fe9addd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strengthX: 0.06666
-  strengthY: 0
+  strengthX: 0.111
+  strengthY: 0.333
   fishEyeShader: {fileID: 4800000, guid: 874ceab4425f64bccb1d14032f4452b1, type: 3}
 --- !u!114 &11487240
 MonoBehaviour:
