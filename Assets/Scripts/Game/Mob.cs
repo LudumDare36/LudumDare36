@@ -21,6 +21,9 @@ public class Mob : MonoBehaviour {
   private Vector3 awakeLocalPos;
   public bool sleep = true;
   private bool prevSleep;
+  public float height = 2.0f;
+  public int maxTries = 100;
+  public bool sleepNearPlayer = true;
 
   void Start () {
     next = transform.position;
@@ -41,6 +44,9 @@ public class Mob : MonoBehaviour {
       rigid.isKinematic = true;
       anim.transform.localPosition = sleepLocalPos;
       transform.rotation = sleepRotation;
+      RaycastHit hit;
+      if (Physics.Raycast(transform.position, Vector3.down, out hit))
+        transform.position = hit.point + Vector3.up * height / 2.0f;
     }
     else
     {
@@ -70,7 +76,7 @@ public class Mob : MonoBehaviour {
           return path[i];
       }
     }
-    return Around(transform.position, 2);
+    return Around(transform.position, closeEnough*2);
   }
 
 
@@ -80,15 +86,15 @@ public class Mob : MonoBehaviour {
       return;
 
     float time = Time.time;
-    if (Vector3.Distance(transform.position, next) < 1 
+    if (Vector3.Distance(transform.position, next) < closeEnough
       || (hunt && Vector3.Distance(hunt.transform.position, transform.position) < closeEnough) 
       || deadline < time)
     {
       deadline = time + 3;
       Vector3 goal;
       if (hunt) { speed = runSpeed; goal = hunt.transform.position; }
-      else if (follow) goal = Around(follow.transform.position, 3, 10);
-      else goal = Around(transform.position, 5, 20);
+      else if (follow) goal = Around(follow.transform.position, 3, closeEnough * 4);
+      else goal = Around(transform.position, 5, closeEnough * 8);
 
       if (Vector3.Distance(transform.position, goal) < closeEnough)
         next = goal;
@@ -103,6 +109,7 @@ public class Mob : MonoBehaviour {
     Vector3 vel = Mathf.Clamp(dist, walkSpeed, speed) * dir.normalized;
     rigid.AddForce((vel - rigid.velocity) * rigid.mass);
 
+    dir.y = 0;
     transform.rotation =
       Quaternion.Lerp(
         transform.rotation,
@@ -117,7 +124,7 @@ public class Mob : MonoBehaviour {
   void OnTriggerEnter(Collider other)
   {
     switch (other.tag) {
-      case "Player":                 hunt   = other.gameObject; deadline = 0; break;
+      case "Player":  if(sleep) sleep = sleepNearPlayer; hunt = other.gameObject; deadline = 0; break;
       case "Giant":   sleep = false; follow = other.gameObject; deadline = 0; break;
     }
   }
@@ -167,7 +174,7 @@ public class Mob : MonoBehaviour {
     List<List<Vector3>> queue = new List<List<Vector3>>();
     HashSet<Vector2> visited = new HashSet<Vector2>();
 
-    int tries = 100;
+    int tries = maxTries;
     queue.Add(new List<Vector3>{ start });
     while(queue.Count > 0 && tries-->0)
     {
@@ -195,7 +202,7 @@ public class Mob : MonoBehaviour {
           RaycastHit hitDown;
           if (Physics.Raycast(next, Vector3.down, out hitDown))
           {
-            next.y = hitDown.point.y + 1; // FIXME height
+            next.y = hitDown.point.y + height/2.0f; // FIXME height
             //Debug.DrawLine(last, next + new Vector3(0, 0.1f, 0), Color.cyan);
             RaycastHit hitPassage;
             Vector3 dir = next - last;
@@ -220,7 +227,6 @@ public class Mob : MonoBehaviour {
         }
         else
         Debug.DrawLine(next, next + new Vector3(0.2f, 1, 0.2f), Color.red, 2, false);
-
       }
 
       queue.Sort(delegate (List<Vector3> a, List<Vector3> b) {
