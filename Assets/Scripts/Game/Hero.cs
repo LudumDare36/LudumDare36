@@ -38,16 +38,13 @@ public class Hero : MonoBehaviour {
     vel.y = rigid.velocity.y;
     rigid.AddForce((vel - rigid.velocity), ForceMode.VelocityChange);
 
-    foreach (Animator anim in GetComponentsInChildren<Animator>())
+    foreach (Animator ani in GetComponentsInChildren<Animator>())
     {
-      anim.SetFloat("vel", rigid.velocity.magnitude);
+      ani.SetFloat("vel", rigid.velocity.magnitude);
     }
 
     Camera.main.transform.parent.position = transform.position;
-  }
 
-  void Update()
-  {
     int attack = 0;
     if (Input.GetButton("Fire1"))
     {
@@ -59,7 +56,7 @@ public class Hero : MonoBehaviour {
           weaponPack = 2;
 
         GameObject s = (GameObject)Instantiate(shot, transform.position + transform.forward * 2, Quaternion.identity);
-        s.GetComponent<Rigidbody>().velocity = transform.forward * 40;
+        s.GetComponent<Rigidbody>().velocity = transform.forward * 30;
         Destroy(s, 0.05f);
 
       }

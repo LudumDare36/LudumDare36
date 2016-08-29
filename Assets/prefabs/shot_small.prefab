@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010349882768}
   - 135: {fileID: 135000012184792620}
   - 54: {fileID: 54000013966029230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shot_small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
