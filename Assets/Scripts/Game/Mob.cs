@@ -24,6 +24,7 @@ public class Mob : MonoBehaviour {
   public float height = 2.0f;
   public int maxTries = 100;
   public bool sleepNearPlayer = true;
+  public GameObject shot;
 
   void Start () {
     next = transform.position;
@@ -166,6 +167,9 @@ public class Mob : MonoBehaviour {
     {
       sleep = false;
       anim.SetBool("attack", true);
+      GameObject s = (GameObject)Instantiate(shot, transform.position + transform.forward * 2, Quaternion.identity);
+      s.GetComponent<Rigidbody>().velocity = transform.forward * 30;
+      Destroy(s, 0.05f);
     }
   }
 

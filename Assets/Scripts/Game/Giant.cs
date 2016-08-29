@@ -40,5 +40,10 @@ public class Giant : MonoBehaviour
     }
   }
 
+  void OnDestroy()
+  {
+    GameObject.FindGameObjectWithTag("Player").GetComponent<Hero>().weaponCount = 2;
+  }
+
 
 }

@@ -12,6 +12,7 @@ public class Hero : MonoBehaviour {
   public int weaponPack = 0;
   int prevWeaponHand = -1;
   int prevWeaponPack = -1;
+  public GameObject shot;
 
   public static readonly string[] weaponHandStr = { null, "PL porrete:pCube1", "golem_gun" };
   public static readonly string[] weaponPackStr = { null, "armas:porrete:pCube1", "PL cannon:pCylinder2" };
@@ -56,6 +57,11 @@ public class Hero : MonoBehaviour {
         weaponHand = 1;
         if (weaponCount >= 2)
           weaponPack = 2;
+
+        GameObject s = (GameObject)Instantiate(shot, transform.position + transform.forward * 2, Quaternion.identity);
+        s.GetComponent<Rigidbody>().velocity = transform.forward * 40;
+        Destroy(s, 0.05f);
+
       }
     }
     else if (Input.GetButton("Fire2"))
@@ -65,6 +71,11 @@ public class Hero : MonoBehaviour {
         attack = 2;
         weaponHand = 2;
         weaponPack = 1;
+
+        GameObject s = (GameObject)Instantiate(shot, transform.position + transform.forward * 2, Quaternion.identity);
+        s.GetComponent<Rigidbody>().velocity = transform.forward * 200;
+        Destroy(s, 0.5f);
+
       }
     }
     anim.SetInteger("attack", attack);
@@ -119,5 +130,11 @@ public class Hero : MonoBehaviour {
     }
 
   }
+
+  void OnDestroy()
+  {
+    Application.LoadLevel("ProceduralStructTest"); // TODO SceneManager
+  }
+    
 
 }

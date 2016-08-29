@@ -17,7 +17,7 @@ public class Ruins : MonoBehaviour {
     float offset = (bb.center.y - bb.min.y) * brick.transform.localScale.y;
     float size = bb.size.y * brick.transform.localScale.y;
 
-    int w = Random.Range(4, 20);
+    int w = Random.Range(4, 12);
     int h = Random.Range(w/3, w*3);
     for (int x0 = 0; x0 < w; x0++)
     {

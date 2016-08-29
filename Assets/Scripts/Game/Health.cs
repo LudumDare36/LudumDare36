@@ -18,7 +18,7 @@ public class Health : MonoBehaviour {
   void OnCollisionEnter(Collision collision)
   {
     if (collision.rigidbody) {
-      health -= Mathf.Max(0, collision.relativeVelocity.magnitude/2.0f - 10);
+      health -= Mathf.Max(0, collision.relativeVelocity.magnitude/2.0f - 5);
       Debug.Log(name + " health " + health + "("+ collision.relativeVelocity.magnitude + ")");
       if (health <= 0)
       {

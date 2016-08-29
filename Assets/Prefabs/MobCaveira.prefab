@@ -23907,9 +23907,10 @@ MonoBehaviour:
   sleepLocalPos: {x: 0, y: 0, z: -1.6}
   sleepRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   sleep: 1
-  height: 2
+  height: 2.5
   maxTries: 100
   sleepNearPlayer: 1
+  shot: {fileID: 1000012126769600, guid: f5d66ff4691c4e4438630a3304447aa4, type: 2}
 --- !u!114 &114000011459547676
 MonoBehaviour:
   m_ObjectHideFlags: 1

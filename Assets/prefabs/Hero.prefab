@@ -23941,6 +23941,7 @@ MonoBehaviour:
   weaponCount: 0
   weaponHand: 0
   weaponPack: 0
+  shot: {fileID: 1000012126769600, guid: f5d66ff4691c4e4438630a3304447aa4, type: 2}
 --- !u!136 &136000013650599514
 CapsuleCollider:
   m_ObjectHideFlags: 1
