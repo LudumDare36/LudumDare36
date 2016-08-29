@@ -4,21 +4,51 @@ using System.Collections.Generic;
 
 public class Mob : MonoBehaviour {
 
-  public bool sleep = true;
   public GameObject follow;
   public GameObject hunt;
   private Vector3 next;
   private float deadline;
-  private float speed = 45.0f;
-  public float runSpeed = 50.0f;
-  public float walkSpeed = 25.0f;
+  private float speed = 10.0f;
+  public float runSpeed = 10.0f;
+  public float walkSpeed = 5.0f;
   public float thickness = 0.5f;
   public float closeEnough = 2.5f;
+  private Rigidbody rigid;
+  private Animator anim;
+  private CapsuleCollider capsule;
+  private Vector3 awakeLocalPos;
+  public bool sleep = true;
+  private bool prevSleep;
 
   void Start () {
     next = transform.position;
     deadline = 0;
+    anim = GetComponentInChildren<Animator>();
+    rigid = GetComponent<Rigidbody>();
+    capsule = GetComponent<CapsuleCollider>();
+    awakeLocalPos = anim.transform.localPosition;
+    UpdateSleep();
   }
+
+  void UpdateSleep()
+  {
+    prevSleep = sleep;
+    anim.enabled = !sleep;
+    if (sleep)
+    {
+      capsule.enabled = false;
+      rigid.isKinematic = true;
+      transform.rotation = Quaternion.LookRotation(Vector3.up);
+      anim.transform.localPosition = Vector3.back * 1.6f;
+    }
+    else
+    {
+      capsule.enabled = true;
+      rigid.isKinematic = false;
+      anim.transform.localPosition = awakeLocalPos;
+    }
+  }
+
 
   Vector3 Around(Vector3 pos, float min, float max = -1)
   {
@@ -42,12 +72,17 @@ public class Mob : MonoBehaviour {
     }
     return Around(transform.position, 2);
   }
-	
-	void FixedUpdate () {
-    if (sleep) return;
+
+
+  void FixedUpdate () {
+    if (prevSleep != sleep) UpdateSleep();
+    if (sleep)
+      return;
 
     float time = Time.time;
-    if (Vector3.Distance(transform.position, next) < 1 || deadline < time)
+    if (Vector3.Distance(transform.position, next) < 1 
+      || (hunt && Vector3.Distance(hunt.transform.position, next) < closeEnough) 
+      || deadline < time)
     {
       deadline = time + 3;
       Vector3 goal;
@@ -66,16 +101,24 @@ public class Mob : MonoBehaviour {
     Vector3 dir = next - transform.position;
     float dist = dir.magnitude;
     Vector3 vel = Mathf.Clamp(dist, walkSpeed, speed) * dir.normalized;
-    Rigidbody rb = GetComponent<Rigidbody>();
-    rb.AddForce(vel - rb.velocity);
+    rigid.AddForce(vel - rigid.velocity);
+
+    transform.rotation =
+      Quaternion.Lerp(
+        transform.rotation,
+        Quaternion.LookRotation(dir, Vector3.up),
+        0.05f
+      );
+
+    anim.SetFloat("vel", rigid.velocity.magnitude);
     
   }
 
   void OnTriggerEnter(Collider other)
   {
     switch (other.tag) {
-      case "Player":  hunt   = other.gameObject; deadline = 0; break;
-      case "Giant":   follow = other.gameObject; deadline = 0; break;
+      case "Player":                 hunt   = other.gameObject; deadline = 0; break;
+      case "Giant":   sleep = false; follow = other.gameObject; deadline = 0; break;
     }
   }
 
@@ -94,10 +137,24 @@ public class Mob : MonoBehaviour {
     foreach (ContactPoint contact in collision.contacts)
     {
       Debug.DrawRay(contact.point, contact.normal, Color.white);
-      if(contact.otherCollider.gameObject.tag == "Wall")
-        GetComponent<Rigidbody>().AddForce(contact.normal * 10.0f);
+      if (contact.otherCollider.gameObject.tag == "Wall")
+        GetComponent<Rigidbody>().AddForce(
+          (contact.normal + (next - transform.position).normalized) * 0.5f, 
+          ForceMode.VelocityChange);
     }
 
+  }
+
+  void OnCollisionEnter(Collision collision)
+  {
+    if (collision.gameObject.gameObject.tag == "Player")
+      anim.SetBool("attack", true);
+  }
+
+  void OnCollisionExit(Collision collision)
+  {
+    if(collision.gameObject.gameObject.tag == "Player")
+      anim.SetBool("attack", false);
   }
 
   List<Vector3> PathFind(Vector3 start, Vector3 goal)
