@@ -183,8 +183,8 @@ ModelImporter:
     - serializedVersion: 16
       name: JogJump_ToLeft_2
       takeName: _16_a_U1_M_P_JogJump_ToLeft_R_Fb_p0_No_0_3
-      firstFrame: 244
-      lastFrame: 349
+      firstFrame: 262
+      lastFrame: 310
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
