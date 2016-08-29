@@ -105,6 +105,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &109384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 451842}
+  - 114: {fileID: 11416202}
+  m_Layer: 0
+  m_Name: ForwardGyro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &111682
 GameObject:
   m_ObjectHideFlags: 1
@@ -1266,7 +1282,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 448162}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!4 &440850
 Transform:
   m_ObjectHideFlags: 1
@@ -1333,9 +1349,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 440546}
   - {fileID: 454956}
   - {fileID: 470050}
-  - {fileID: 440546}
+  - {fileID: 451842}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &449378
@@ -1419,6 +1436,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 427690}
   m_RootOrder: 0
+--- !u!4 &451842
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 448162}
+  m_RootOrder: 3
 --- !u!4 &452148
 Transform:
   m_ObjectHideFlags: 1
@@ -1477,7 +1507,7 @@ Transform:
   m_Children:
   - {fileID: 466952}
   m_Father: {fileID: 448162}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &456654
 Transform:
   m_ObjectHideFlags: 1
@@ -1596,7 +1626,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 448162}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &474360
 Transform:
   m_ObjectHideFlags: 1
@@ -1890,6 +1920,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da79f5dc56d83db4ab02c841e68668ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11416202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0dbb636009d19547987b87bcc152595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncedGyro: {fileID: 0}
 --- !u!114 &11441456
 MonoBehaviour:
   m_ObjectHideFlags: 1

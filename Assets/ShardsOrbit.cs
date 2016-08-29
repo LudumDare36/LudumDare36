@@ -32,9 +32,6 @@ public class ShardsOrbit : MonoBehaviour
 	IEnumerator SpawnShards()
 	{
 		yield return new WaitForFixedUpdate();
-		yield return new WaitUntil(()
-			=> Vector3.Distance(transform.position, 
-				GameObject.FindGameObjectWithTag("Player").transform.position) < 30f);
 
 		int _largeShardsIterations = Random.Range(20, 30);
 		List<Transform> _shards = new List<Transform>();
@@ -44,6 +41,8 @@ public class ShardsOrbit : MonoBehaviour
 			var _newShard = GameObject.CreatePrimitive(PrimitiveType.Cube);
 			_newShard.GetComponent<MeshRenderer>().material
 				= this.GetComponent<MeshRenderer>().material;
+
+			_newShard.GetComponent<BoxCollider>().enabled = false;
 
 			_newShard.transform.SetParent(transform);
 
@@ -63,9 +62,9 @@ public class ShardsOrbit : MonoBehaviour
 					* (Random.Range(-0.12f, -18f));
 
 			_newShard.transform.localScale
-				= new Vector3(Random.Range(6f, 54f),
-					Random.Range(6f, 54f),
-						Random.Range(6f, 54f));
+				= new Vector3(Random.Range(11, 99f),
+					Random.Range(11f, 99f),
+						Random.Range(11f, 99f));
 
 			_newShard.AddComponent<OrbitArround>();
 			_shards.Add(_newShard.transform);

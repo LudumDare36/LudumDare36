@@ -4,7 +4,8 @@ using System.Collections;
 public class movementcontroler : MonoBehaviour
 {
 	Transform avatarGyro;
-	Transform viewPortGyro;
+    Transform avatarForwardGyro;
+    Transform viewPortGyro;
 
 	void Start()
 	{
@@ -13,7 +14,10 @@ public class movementcontroler : MonoBehaviour
 
 		viewPortGyro = Camera.main.transform.root.
 			GetComponentInChildren<Gyroscope>().transform;
-	}
+
+        avatarForwardGyro   = transform.root.
+            GetComponentInChildren<ForwardGyro>().transform;
+    }
 
 	// Update is called once per frame
 	void FixedUpdate ()
@@ -30,29 +34,13 @@ public class movementcontroler : MonoBehaviour
 				MovePosition(transform.position + (avatarGyro.forward * 9f * Time.smoothDeltaTime));
 		}
 
-
-		/*if (Input.GetAxis("Horizontal") != 0)
-		{
-			transform.forward
-				= Vector3.Lerp(transform.forward,
-					(Camera.main.transform.right * Input.GetAxis("Horizontal")),
-						Time.smoothDeltaTime * 18f);
-		}
-
-		if (Input.GetAxis ("Vertical") > 0 )
-		{
-			transform.rotation
-			= new Quaternion(transform.rotation.x,
-				Mathf.Lerp(transform.rotation.y, Camera.main.transform.rotation.y, Time.smoothDeltaTime * 18f),
-					transform.rotation.z, transform.rotation.w);
-		}*/
-
-
-		transform.forward
+        transform.forward
 			= Vector3.Lerp(transform.forward,(
-				viewPortGyro.forward * Input.GetAxis("Vertical"))
-					+ (Camera.main.transform.right * Input.GetAxis("Horizontal")),
-						Time.smoothDeltaTime*18f);
-			
-	}
+                avatarForwardGyro.forward
+                //viewPortGyro.transform.forward 
+                    * Input.GetAxis("Vertical"))
+                        + (avatarForwardGyro.right * Input.GetAxis("Horizontal")),
+                            Time.smoothDeltaTime * 18f);
+
+    }
 }

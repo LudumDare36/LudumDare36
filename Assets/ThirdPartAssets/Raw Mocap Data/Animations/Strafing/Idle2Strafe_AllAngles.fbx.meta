@@ -187,15 +187,15 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle2Strafe_AllAngles
       takeName: _117_to_120_a_U1_M_P_idle2Strafe_AllAngles__Fb_p45-180_No_0_PJ_1
-      firstFrame: 53
-      lastFrame: 1215
+      firstFrame: 390
+      lastFrame: 427
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
