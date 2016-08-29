@@ -59,6 +59,7 @@ GameObject:
   - 4: {fileID: 438732}
   - 33: {fileID: 3378998}
   - 23: {fileID: 2322270}
+  - 114: {fileID: 11497338}
   m_Layer: 0
   m_Name: MainMonolith
   m_TagString: Untagged
@@ -415,7 +416,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162546}
-  m_LocalRotation: {x: -0.12551251, y: 0.8131052, z: 0.3017451, w: 0.48172218}
+  m_LocalRotation: {x: -0.12551253, y: 0.81310534, z: 0.30174512, w: 0.48172224}
   m_LocalPosition: {x: -0.71938443, y: 0.00000006319224, z: 0.5909801}
   m_LocalScale: {x: 0.14185229, y: 1.5667758, z: 0.0924992}
   m_LocalEulerAnglesHint: {x: -37.7071, y: 116.563095, z: 6.2846}
@@ -902,6 +903,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 4}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11497338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84620630478441c4c85d4d3f9312ffc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
