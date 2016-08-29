@@ -36,14 +36,12 @@ public class Mob : MonoBehaviour {
     anim.enabled = !sleep;
     if (sleep)
     {
-      capsule.enabled = false;
       rigid.isKinematic = true;
-      transform.rotation = Quaternion.LookRotation(Vector3.up);
       anim.transform.localPosition = Vector3.back * 1.6f;
+      transform.rotation = Quaternion.LookRotation(Vector3.up);
     }
     else
     {
-      capsule.enabled = true;
       rigid.isKinematic = false;
       anim.transform.localPosition = awakeLocalPos;
     }
@@ -81,7 +79,7 @@ public class Mob : MonoBehaviour {
 
     float time = Time.time;
     if (Vector3.Distance(transform.position, next) < 1 
-      || (hunt && Vector3.Distance(hunt.transform.position, next) < closeEnough) 
+      || (hunt && Vector3.Distance(hunt.transform.position, transform.position) < closeEnough) 
       || deadline < time)
     {
       deadline = time + 3;
@@ -101,7 +99,7 @@ public class Mob : MonoBehaviour {
     Vector3 dir = next - transform.position;
     float dist = dir.magnitude;
     Vector3 vel = Mathf.Clamp(dist, walkSpeed, speed) * dir.normalized;
-    rigid.AddForce(vel - rigid.velocity);
+    rigid.AddForce((vel - rigid.velocity) * rigid.mass);
 
     transform.rotation =
       Quaternion.Lerp(
@@ -138,7 +136,7 @@ public class Mob : MonoBehaviour {
     {
       Debug.DrawRay(contact.point, contact.normal, Color.white);
       if (contact.otherCollider.gameObject.tag == "Wall")
-        GetComponent<Rigidbody>().AddForce(
+        rigid.AddForce(
           (contact.normal + (next - transform.position).normalized) * 0.5f, 
           ForceMode.VelocityChange);
     }
@@ -148,7 +146,10 @@ public class Mob : MonoBehaviour {
   void OnCollisionEnter(Collision collision)
   {
     if (collision.gameObject.gameObject.tag == "Player")
+    {
+      sleep = false;
       anim.SetBool("attack", true);
+    }
   }
 
   void OnCollisionExit(Collision collision)
