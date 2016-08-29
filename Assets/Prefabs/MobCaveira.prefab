@@ -7117,6 +7117,7 @@ Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: -1467614798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -7127,6 +7128,39 @@ Transform:
   m_RootOrder: 950
 --- !u!4 &407446
 Transform:
+=======
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012164003178}
+  m_Layer: 0
+  m_Name: SDK1FKThumbFinger3_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012603533292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013818769508}
+  - 135: {fileID: 135000010974269634}
+  - 136: {fileID: 136000012562237740}
+  - 54: {fileID: 54000010652540410}
+  - 114: {fileID: 114000010952034612}
+  m_Layer: 0
+  m_Name: MobCaveira
+  m_TagString: Skeleton
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012605913252
+GameObject:
+>>>>>>> 4a986e1fb89573871f9aa2ec23ab0b966ac1bc6e
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -15060,9 +15094,15 @@ Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1454537024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1000011444561686}
+  m_LocalRotation: {x: 0.62918365, y: 0.36988968, z: 0.59617233, w: 0.3344968}
+  m_LocalPosition: {x: 0.07009216, y: 0.057787277, z: -0.10369777}
+>>>>>>> 4a986e1fb89573871f9aa2ec23ab0b966ac1bc6e
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []

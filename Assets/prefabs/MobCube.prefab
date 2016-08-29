@@ -26,15 +26,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30918b050460ca94f9f9928bdc9fd30d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sleep: 0
   follow: {fileID: 0}
   hunt: {fileID: 0}
   runSpeed: 40
   walkSpeed: 20
   thickness: 0.75
   closeEnough: 2.5
+<<<<<<< HEAD
 --- !u!4 &421726
 Transform:
+=======
+  sleep: 0
+--- !u!135 &135000012388469052
+SphereCollider:
+>>>>>>> 4a986e1fb89573871f9aa2ec23ab0b966ac1bc6e
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
