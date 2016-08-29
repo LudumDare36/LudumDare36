@@ -3528,6 +3528,7 @@ GameObject:
   - 136: {fileID: 136000013650599514}
   - 81: {fileID: 81000013670337426}
   - 114: {fileID: 114000012408652600}
+  - 114: {fileID: 114000010379452746}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -23913,6 +23914,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000010379452746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011180790886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae62e289801e16942b4fa6bc517be557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
 --- !u!114 &114000012408652600
 MonoBehaviour:
   m_ObjectHideFlags: 1

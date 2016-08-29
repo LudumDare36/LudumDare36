@@ -7,7 +7,7 @@ public class Mob : MonoBehaviour {
   public GameObject follow;
   public GameObject hunt;
   private Vector3 next;
-  private float deadline;
+  private float timestamp;
   private float speed = 10.0f;
   public float runSpeed = 10.0f;
   public float walkSpeed = 5.0f;
@@ -27,7 +27,7 @@ public class Mob : MonoBehaviour {
 
   void Start () {
     next = transform.position;
-    deadline = 0;
+    timestamp = 0;
     anim = GetComponentInChildren<Animator>();
     rigid = GetComponent<Rigidbody>();
     capsule = GetComponent<CapsuleCollider>();
@@ -45,8 +45,12 @@ public class Mob : MonoBehaviour {
       anim.transform.localPosition = sleepLocalPos;
       transform.rotation = sleepRotation;
       RaycastHit hit;
+      Physics.queriesHitTriggers = false;
       if (Physics.Raycast(transform.position, Vector3.down, out hit))
+      {
+        Debug.DrawLine(transform.position, hit.point, Color.magenta, 5, false);
         transform.position = hit.point + Vector3.up * height / 2.0f;
+      }
     }
     else
     {
@@ -86,11 +90,11 @@ public class Mob : MonoBehaviour {
       return;
 
     float time = Time.time;
-    if (Vector3.Distance(transform.position, next) < closeEnough
+    if ((Vector3.Distance(transform.position, next) < closeEnough
       || (hunt && Vector3.Distance(hunt.transform.position, transform.position) < closeEnough) 
-      || deadline < time)
+      || timestamp + 10 < time) && timestamp + 1 < time)
     {
-      deadline = time + 3;
+      timestamp = time;
       Vector3 goal;
       if (hunt) { speed = runSpeed; goal = hunt.transform.position; }
       else if (follow) goal = Around(follow.transform.position, 3, closeEnough * 4);
@@ -107,15 +111,19 @@ public class Mob : MonoBehaviour {
     Vector3 dir = next - transform.position;
     float dist = dir.magnitude;
     Vector3 vel = Mathf.Clamp(dist, walkSpeed, speed) * dir.normalized;
+    vel.y = rigid.velocity.y;
     rigid.AddForce((vel - rigid.velocity) * rigid.mass);
 
     dir.y = 0;
-    transform.rotation =
-      Quaternion.Lerp(
-        transform.rotation,
-        Quaternion.LookRotation(dir, Vector3.up),
-        0.05f
-      );
+    if(dir.magnitude > 0)
+    {
+      transform.rotation =
+        Quaternion.Lerp(
+          transform.rotation,
+          Quaternion.LookRotation(dir, Vector3.up),
+          0.05f
+        );
+    }
 
     anim.SetFloat("vel", rigid.velocity.magnitude);
     
@@ -124,16 +132,16 @@ public class Mob : MonoBehaviour {
   void OnTriggerEnter(Collider other)
   {
     switch (other.tag) {
-      case "Player":  if(sleep) sleep = sleepNearPlayer; hunt = other.gameObject; deadline = 0; break;
-      case "Giant":   sleep = false; follow = other.gameObject; deadline = 0; break;
+      case "Player":  if(sleep) sleep = sleepNearPlayer; hunt = other.gameObject; timestamp = 0; break;
+      case "Giant":   sleep = false; follow = other.gameObject; timestamp = 0; break;
     }
   }
 
   void OnTriggerLeave(Collider other)
   {
     switch (other.tag) {
-      case "Player": hunt   = null; deadline = 0; break;
-      case "Giant":  follow = null; deadline = 0; break;
+      case "Player": hunt   = null; timestamp = 0; break;
+      case "Giant":  follow = null; timestamp = 0; break;
     }
   }
 

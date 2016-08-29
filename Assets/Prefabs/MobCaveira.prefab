@@ -7420,6 +7420,7 @@ GameObject:
   - 136: {fileID: 136000012562237740}
   - 54: {fileID: 54000010652540410}
   - 114: {fileID: 114000010952034612}
+  - 114: {fileID: 114000011459547676}
   m_Layer: 0
   m_Name: MobCaveira
   m_TagString: Skeleton
@@ -23907,6 +23908,20 @@ MonoBehaviour:
   sleepRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   sleep: 1
   height: 2
+  maxTries: 100
+  sleepNearPlayer: 1
+--- !u!114 &114000011459547676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012603533292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae62e289801e16942b4fa6bc517be557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
 --- !u!135 &135000010974269634
 SphereCollider:
   m_ObjectHideFlags: 1
