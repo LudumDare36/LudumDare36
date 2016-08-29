@@ -6545,6 +6545,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012543936166, guid: 4faa113aabd08a34b900a9bb17235ed0, type: 2}
+      propertyPath: m_Name
+      value: PL porrete:pCube1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014101761620, guid: 4faa113aabd08a34b900a9bb17235ed0, type: 2}
+      propertyPath: m_Name
+      value: PL cannon:pCylinder2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4faa113aabd08a34b900a9bb17235ed0, type: 2}
   m_IsPrefabParent: 0

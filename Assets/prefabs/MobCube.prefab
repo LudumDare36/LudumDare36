@@ -107,13 +107,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30918b050460ca94f9f9928bdc9fd30d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sleep: 0
   follow: {fileID: 0}
   hunt: {fileID: 0}
   runSpeed: 40
   walkSpeed: 20
   thickness: 0.75
   closeEnough: 2.5
+  sleep: 0
 --- !u!135 &135000012388469052
 SphereCollider:
   m_ObjectHideFlags: 1

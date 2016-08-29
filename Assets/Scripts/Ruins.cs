@@ -96,7 +96,7 @@ public class Ruins : MonoBehaviour {
             return;
           }
         }
-        Debug.Log(i + "/" + n);
+        //Debug.Log(i + "/" + n);
       }
     }
   }
