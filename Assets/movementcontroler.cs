@@ -16,7 +16,7 @@ public class movementcontroler : MonoBehaviour
                     * Time.smoothDeltaTime)));
 
         transform.Rotate(0f, ((Input.GetAxis("Horizontal") 
-            * Time.smoothDeltaTime) * 90f), 0f);
+            * Time.smoothDeltaTime) * 180f), 0f);
         
 	}
 }
