@@ -7823,7 +7823,7 @@ GameObject:
   - 33: {fileID: 33000013490279914}
   - 23: {fileID: 23000013587519522}
   m_Layer: 0
-  m_Name: porrete:pCube1
+  m_Name: PL porrete:pCube1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11531,7 +11531,7 @@ GameObject:
   - 33: {fileID: 33000010193266842}
   - 23: {fileID: 23000010190728896}
   m_Layer: 0
-  m_Name: cannon:pCylinder2
+  m_Name: PL cannon:pCylinder2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23926,7 +23926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   weaponCount: 0
-  weaponEquipped: 0
+  weaponHand: 0
+  weaponPack: 0
 --- !u!136 &136000013650599514
 CapsuleCollider:
   m_ObjectHideFlags: 1

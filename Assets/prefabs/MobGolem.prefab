@@ -7419,9 +7419,9 @@ GameObject:
   - 135: {fileID: 135000010974269634}
   - 136: {fileID: 136000012562237740}
   - 54: {fileID: 54000010652540410}
-  - 114: {fileID: 114000010952034612}
+  - 114: {fileID: 114000010483254470}
   m_Layer: 0
-  m_Name: MobCaveira
+  m_Name: MobGolem
   m_TagString: Skeleton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23886,7 +23886,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114000010952034612
+--- !u!114 &114000010483254470
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -23894,18 +23894,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012603533292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30918b050460ca94f9f9928bdc9fd30d, type: 3}
+  m_Script: {fileID: 11500000, guid: e4724ea2c2bc0b64987bb41fca80423f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 0}
   hunt: {fileID: 0}
   runSpeed: 10
   walkSpeed: 5
-  thickness: 0.75
+  thickness: 0.5
   closeEnough: 2.5
   sleepLocalPos: {x: 0, y: 0, z: -1.6}
   sleepRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   sleep: 1
+  sleepLocalPos: {x: 0, y: 0, z: -0.6}
+  sleepRotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!135 &135000010974269634
 SphereCollider:
   m_ObjectHideFlags: 1

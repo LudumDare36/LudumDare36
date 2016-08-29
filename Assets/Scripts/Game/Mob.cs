@@ -16,6 +16,8 @@ public class Mob : MonoBehaviour {
   private Rigidbody rigid;
   private Animator anim;
   private CapsuleCollider capsule;
+  public Vector3 sleepLocalPos = Vector3.back * 1.6f;
+  public Quaternion sleepRotation = Quaternion.LookRotation(Vector3.up);
   private Vector3 awakeLocalPos;
   public bool sleep = true;
   private bool prevSleep;
@@ -37,8 +39,8 @@ public class Mob : MonoBehaviour {
     if (sleep)
     {
       rigid.isKinematic = true;
-      anim.transform.localPosition = Vector3.back * 1.6f;
-      transform.rotation = Quaternion.LookRotation(Vector3.up);
+      anim.transform.localPosition = sleepLocalPos;
+      transform.rotation = sleepRotation;
     }
     else
     {
@@ -72,7 +74,7 @@ public class Mob : MonoBehaviour {
   }
 
 
-  void FixedUpdate () {
+  public virtual void FixedUpdate () {
     if (prevSleep != sleep) UpdateSleep();
     if (sleep)
       return;
